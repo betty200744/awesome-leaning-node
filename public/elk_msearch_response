@@ -1,0 +1,5662 @@
+{
+  "responses": [
+    {
+      "took": 72,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+      },
+      "hits": {
+        "total": 57,
+        "max_score": 11.341157,
+        "hits": [
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989821ba30e5c0d195b45d9",
+            "_score": 11.341157,
+            "_source": {
+              "name": "夜里起床，拿起灯泡就走！【马克实测】",
+              "products": [
+                {
+                  "product": "59880182a232514cfcde3a57",
+                  "amount": 1,
+                  "spec": "金色",
+                  "price": 36
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58eba4abfdc1c250009785a3",
+                "nickname": "蠕蠕sama",
+                "create": "2017-04-10T15:28:43.854Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "蠕蠕sama",
+                    "uid": "ovxrut8CVDPTe_o6as06SuophJss",
+                    "unionId": "oJBt0v4_KnzcLXrgepRZj9tUxcB4"
+                  },
+                  "phone": {
+                    "number": "18701561599"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:19:23.547Z",
+              "review": {
+                "_id": "59880181a232514cfcde3a44",
+                "title": "夜里起床，拿起灯泡就走！【马克实测】",
+                "mainCategory": {
+                  "name": "家居家纺",
+                  "_id": "593a2d09b079c329c29518e2"
+                },
+                "minorCategory": {
+                  "name": "家居用品",
+                  "_id": "593a2d6d40e2e1535bb4fede"
+                },
+                "merchant": {
+                  "_id": "58ae8ed478a95910bb4a607b",
+                  "name": "丹麦AM",
+                  "BD": {
+                    "_id": "58476edaf3adb95e7ecd6aa7",
+                    "nickname": "胡赞"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808196021486347",
+              "address": {
+                "name": "李先生",
+                "address": "马甸经典家园A栋1108室",
+                "phone": "18701561599",
+                "city": "北京市北京市朝阳区"
+              },
+              "from": "app",
+              "totalPrice": 36,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1491838123854
+              ],
+              "create": [
+                1502183963547
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898053e69845410c376368",
+            "_score": 11.244294,
+            "_source": {
+              "name": "U型枕应该是必备品！【马克实测】",
+              "products": [
+                {
+                  "product": "58f9bc04acec2e5f11ab5e0d",
+                  "amount": 1,
+                  "spec": "浅棕条纹（马克君同款）",
+                  "price": 69
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "59897c10a6f2c70c0c40f5c4",
+                "nickname": "张佳怡",
+                "create": "2017-08-08T08:53:36.347Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "张佳怡",
+                    "uid": "ovxrut3Gi03NVQoIxh9sHAKC8BCo",
+                    "unionId": "oJBt0v92OhdjnsshKIrKqeujHFWI"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:11:47.337Z",
+              "review": {
+                "_id": "58f9bc04acec2e5f11ab5e09",
+                "title": "U型枕应该是必备品！【马克实测】",
+                "merchant": {
+                  "_id": "58f08af537258045171b5f60",
+                  "name": "网易严选",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                },
+                "mainCategory": {
+                  "name": "居家用品",
+                  "_id": "5939fc3d40e2e1535bb4f3e0"
+                },
+                "minorCategory": {
+                  "name": "生活用品",
+                  "_id": "5939fc5b21ef14288ced5abc"
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808182641787448",
+              "address": {
+                "name": "张佳怡",
+                "address": "新造镇永兴路16号门卫",
+                "phone": "15211100023",
+                "city": "广东省广州市番禺区"
+              },
+              "from": "app",
+              "fromChannel": "Oppo",
+              "totalPrice": 69,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1502182416347
+              ],
+              "create": [
+                1502183507337
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59897fd9a6f2c70c0c41208d",
+            "_score": 10.586326,
+            "_source": {
+              "name": "蒸汽眼罩到底有没有用？【马克科普】",
+              "products": [
+                {
+                  "product": "58a6bd6cebbe527dcb0a9600",
+                  "amount": 1,
+                  "spec": "无香（一盒10片）",
+                  "price": 49
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "59897f4204b99a0c166b0f4e",
+                "nickname": "久病成医_ae52d",
+                "create": "2017-08-08T09:07:14.866Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "久病成医",
+                    "openId": "oPN2mwy6R_8ziCnWAB03FhcBMK5o",
+                    "unionId": "oJBt0v6bjovQGPb986pKj3Zj1j-g"
+                  }
+                }
+              },
+              "payMethod": "wx_pub",
+              "create": "2017-08-08T09:09:45.397Z",
+              "review": {
+                "_id": "58a6bd6cebbe527dcb0a95ec",
+                "title": "蒸汽眼罩到底有没有用？【马克科普】",
+                "merchant": {
+                  "_id": "58c24797e46af25233a60549",
+                  "name": "懒得想名儿 品质百货",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                },
+                "mainCategory": {
+                  "name": "居家用品",
+                  "_id": "5939fc3d40e2e1535bb4f3e0"
+                },
+                "minorCategory": {
+                  "name": "生活用品",
+                  "_id": "5939fc5b21ef14288ced5abc"
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808124914901022",
+              "address": {
+                "name": "鞠文婷",
+                "address": "庐山北大道48号卡耐新能源2号门",
+                "phone": "15170223996",
+                "city": "江西省南昌市青山湖区"
+              },
+              "from": "web",
+              "totalPrice": 39,
+              "originalTotalPrice": 0,
+              "coupon": {
+                "_id": "5926a72882577c69ab27e8fa",
+                "name": "详情页分享-新人优惠券"
+              },
+              "couponReduce": 10,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1502183234866
+              ],
+              "create": [
+                1502183385397
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898203e69845410c377d38",
+            "_score": 10.424709,
+            "_source": {
+              "name": "蒸汽眼罩到底有没有用？【马克科普】",
+              "products": [
+                {
+                  "product": "58a6bd6cebbe527dcb0a9600",
+                  "amount": 1,
+                  "spec": "无香（一盒10片）",
+                  "price": 49
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59898165a30e5c0d195b3e4f",
+                "nickname": "ともえ_38f3e",
+                "create": "2017-08-08T09:16:21.322Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "ともえ",
+                    "openId": "oPN2mwxUbbB4DMFPBEBiHp9TWHx0",
+                    "unionId": "oJBt0v_isNNQEFLc_VbDSMMalNwI"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "wx_pub",
+              "create": "2017-08-08T09:18:59.256Z",
+              "review": {
+                "_id": "58a6bd6cebbe527dcb0a95ec",
+                "title": "蒸汽眼罩到底有没有用？【马克科普】",
+                "merchant": {
+                  "_id": "58c24797e46af25233a60549",
+                  "name": "懒得想名儿 品质百货",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                },
+                "mainCategory": {
+                  "name": "居家用品",
+                  "_id": "5939fc3d40e2e1535bb4f3e0"
+                },
+                "minorCategory": {
+                  "name": "生活用品",
+                  "_id": "5939fc5b21ef14288ced5abc"
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808103295871924",
+              "address": {
+                "name": "鞠文婷",
+                "address": "蛟桥庐山北大道48号卡耐新能源2号门",
+                "phone": "15170223996",
+                "city": "江西省南昌市青山湖区"
+              },
+              "from": "web",
+              "totalPrice": 39,
+              "originalTotalPrice": 0,
+              "coupon": {
+                "_id": "5926a72882577c69ab27e8fa",
+                "name": "详情页分享-新人优惠券"
+              },
+              "couponReduce": 10,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1502183781322
+              ],
+              "create": [
+                1502183939256
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989823504b99a0c166b324b",
+            "_score": 9.994799,
+            "_source": {
+              "name": "八级狂风撂断你的伞， 我的雨衣怎么吹都掀不翻【马克实测】",
+              "products": [
+                {
+                  "product": "59639b0024f1f508b6b07312",
+                  "amount": 1,
+                  "spec": "白色 / M",
+                  "price": 39
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59131902168bec43b1ffe5bc",
+                "nickname": "韩佳希",
+                "create": "2017-05-10T13:43:30.755Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "韩佳希",
+                    "uid": "ovxrut4RcRrfYgdpdtc7hkS99BXg",
+                    "unionId": "oJBt0vzwdeljD1lMYRj6EVmDiiQ0"
+                  },
+                  "phone": {
+                    "number": "18721763956"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:19:49.544Z",
+              "review": {
+                "_id": "59639b0024f1f508b6b072fc",
+                "title": "八级狂风撂断你的伞， 我的雨衣怎么吹都掀不翻【马克实测】",
+                "mainCategory": {
+                  "name": "户外健身",
+                  "_id": "5939fe6087d7a6536dfe67a5"
+                },
+                "minorCategory": {
+                  "name": "户外装备",
+                  "_id": "5939fe6f781a1928868b606d"
+                },
+                "merchant": {
+                  "_id": "5963489e484a6207d5d3d935",
+                  "name": "深圳市龙岗区天夕雨家居商行",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808152816591206",
+              "address": {
+                "name": "韩佳希",
+                "address": "勤政苑11号楼1204",
+                "phone": "18721763956",
+                "city": "河南省洛阳市洛龙区"
+              },
+              "from": "app",
+              "totalPrice": 39,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1494423810755
+              ],
+              "create": [
+                1502183989544
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598980e564819741cf525dbf",
+            "_score": 9.919097,
+            "_source": {
+              "name": "这是一款适合夏天穿的浅口船袜【马克实测】",
+              "products": [
+                {
+                  "product": "5971bd7f2310ff1a183472f1",
+                  "amount": 1,
+                  "spec": "白色 米色 黑色 墨绿 肉色",
+                  "price": 39
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58a43abc1e03706167704c9f",
+                "nickname": "丽锅儿",
+                "create": "2017-02-15T11:25:48.424Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrut7DmIVKYea9fbSkMXwfGu5Q",
+                    "name": "丽锅儿",
+                    "unionId": "oJBt0vy3puQelPJW7pfgueAPN_qA"
+                  },
+                  "phone": {
+                    "number": "15504149466"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:14:13.660Z",
+              "review": {
+                "_id": "5971bd7e2310ff1a183472d5",
+                "title": "这是一款适合夏天穿的浅口船袜【马克实测】",
+                "mainCategory": {
+                  "name": "男装",
+                  "_id": "5939fcf9b079c329c2950e42"
+                },
+                "minorCategory": {
+                  "name": "袜子",
+                  "_id": "5939fd3698e67b29e094ae1d"
+                },
+                "merchant": {
+                  "_id": "58e2f5787fc77c26865e7ce9",
+                  "name": "婀草旗舰店",
+                  "BD": {
+                    "_id": "580ebbd699f8134e461436e7",
+                    "nickname": "皮皮Bay"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 10,
+              "serialNo": "20170808124750403120",
+              "address": {
+                "name": "王俊淇",
+                "address": "观山.满庭芳东南 25号楼一单元703",
+                "phone": "15842256525",
+                "city": "辽宁省大连市沙河口区"
+              },
+              "from": "app",
+              "totalPrice": 49,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1487157948424
+              ],
+              "create": [
+                1502183653660
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59897fb5f3cbfc0c06b92210",
+            "_score": 9.5636215,
+            "_source": {
+              "name": "这只芦荟胶来自南非，纯度高达99%【马克实测】",
+              "products": [
+                {
+                  "product": "595f6cc889a73d2b94a7a431",
+                  "amount": 1,
+                  "spec": "芦荟胶1支",
+                  "price": 38.8
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "597879b402ad2547f831a617",
+                "nickname": "陈一康",
+                "create": "2017-07-26T11:15:00.015Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "陈一康",
+                    "uid": "ovxrut5jpcBgcllWWklmDFYmnmQA",
+                    "unionId": "oJBt0v3asWNO_Ysy1_DHBjFlE4Qo"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:09:09.802Z",
+              "review": {
+                "_id": "595f6cc889a73d2b94a7a42b",
+                "title": "这只芦荟胶来自南非，纯度高达99%【马克实测】",
+                "mainCategory": {
+                  "name": "个人清洁洗护",
+                  "_id": "593a2e7cb079c329c2951967"
+                },
+                "minorCategory": {
+                  "name": "身体护理",
+                  "_id": "593a2fe421ef14288ced64d4"
+                },
+                "merchant": {
+                  "_id": "595f580d1ba9581013f08430",
+                  "name": "素尚自然天然有机护肤",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808199119879517",
+              "address": {
+                "name": "陈一康",
+                "address": "迎福街5号茶庄",
+                "phone": "13534928747",
+                "city": "广东省深圳市光明新区(宝安区)"
+              },
+              "from": "app",
+              "fromChannel": "Xiaomi",
+              "totalPrice": 38.8,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501067700015
+              ],
+              "create": [
+                1502183349802
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989812bf3cbfc0c06b93296",
+            "_score": 8.16027,
+            "_source": {
+              "name": "这个袖套不仅防晒，还很凉快",
+              "products": [
+                {
+                  "product": "58f72a59e992b85f62633c28",
+                  "amount": 1,
+                  "spec": "黑色袖套（一对）",
+                  "price": 19
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58b8d0f98b20c41329505499",
+                "nickname": "米盎",
+                "create": "2017-03-03T02:12:09.527Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrutwChBICXCxegVf8s8GKzF_Y",
+                    "name": "米盎"
+                  },
+                  "phone": {
+                    "number": "18859271420"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:15:23.544Z",
+              "review": {
+                "_id": "58f72a59e992b85f62633c0e",
+                "title": "这个袖套不仅防晒，还很凉快",
+                "mainCategory": {
+                  "name": "户外健身",
+                  "_id": "5939fe6087d7a6536dfe67a5"
+                },
+                "minorCategory": {
+                  "name": "户外装备",
+                  "_id": "5939fe6f781a1928868b606d"
+                },
+                "merchant": {
+                  "_id": "59770687684c007f548dab4e",
+                  "name": "义乌市聪赞服装厂",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56d66433221cd2cb361c534d",
+                "name": "爱生活的马克君"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808129651211599",
+              "address": {
+                "name": "陈梅芳",
+                "address": "厦门牛庄21号楼4楼快乐学习",
+                "phone": "18859271420",
+                "city": "福建省厦门市思明区"
+              },
+              "from": "app",
+              "totalPrice": 19,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1488507129527
+              ],
+              "create": [
+                1502183723544
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981b1693dce4106892091",
+            "_score": 4.3963227,
+            "_source": {
+              "name": "像王小波对李银河那样说我爱你",
+              "products": [
+                {
+                  "product": "59896af72cbc8f6052129a46",
+                  "amount": 1,
+                  "spec": "情侣款",
+                  "price": 118
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "59664b9acd646b0d2c02c6e6",
+                "nickname": "麦克斯Maxxx",
+                "create": "2017-07-12T16:17:30.400Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "麦克斯Maxxx",
+                    "uid": "ovxrut3AEVwowtpGu_QcWeLS27Dw",
+                    "unionId": "oJBt0v-G8ddWzuFddnM39zVThtQY"
+                  },
+                  "phone": {
+                    "number": "18545852086"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:17:37.602Z",
+              "review": {
+                "_id": "59896af72cbc8f6052129a2f",
+                "title": "像王小波对李银河那样说我爱你",
+                "mainCategory": {
+                  "name": "图书音像",
+                  "_id": "593a2fa718c10d54649ca56e"
+                },
+                "minorCategory": {
+                  "name": "图书",
+                  "_id": "593a2fb389953a53610e7b56"
+                },
+                "merchant": {
+                  "_id": "587f011474a4cc4c520f6627",
+                  "name": "礼物说",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "574ba014e5933aef1b928abf",
+                "name": "有怪售"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808160105255944",
+              "address": {
+                "name": "刘思琪",
+                "address": "花园街238号哈医大博士公寓1单元3204",
+                "phone": "18545852086",
+                "city": "黑龙江省哈尔滨市南岗区"
+              },
+              "from": "app",
+              "totalPrice": 118,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1499876250400
+              ],
+              "create": [
+                1502183857602
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598980d63797fb41c16f84f2",
+            "_score": 4.2019877,
+            "_source": {
+              "name": "自从穿上了这款T恤，没想到居然变白了",
+              "products": [
+                {
+                  "product": "59647ce21b150e4d3199a87e",
+                  "amount": 1,
+                  "spec": "男款-黑色-L",
+                  "price": 79
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58f836c076680446477962ac",
+                "nickname": "ZCooL",
+                "create": "2017-04-20T04:19:12.358Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "ZCooL",
+                    "uid": "ovxrutw5zCBljUfE2cWw1OqVbgV0",
+                    "unionId": "oJBt0v8iIJmTM1t21mPdSEVhbQ-Q"
+                  },
+                  "phone": {
+                    "number": "13015880793"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:13:58.067Z",
+              "review": {
+                "_id": "59647ce21b150e4d3199a865",
+                "title": "自从穿上了这款T恤，没想到居然变白了",
+                "mainCategory": {
+                  "name": "数码家电",
+                  "_id": "593a011389953a53610e6fcb"
+                },
+                "minorCategory": {
+                  "name": "生活电器",
+                  "_id": "593a2cf018c10d54649ca4be"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58cb9c0a2712980b3b936e08",
+                "name": "差评黑市"
+              },
+              "transferFee": 6,
+              "serialNo": "20170808115036424287",
+              "address": {
+                "name": "阿超",
+                "address": "东城美居5号楼保安室",
+                "phone": "13015880793",
+                "city": "福建省泉州市石狮市"
+              },
+              "from": "app",
+              "totalPrice": 85,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1492661952358
+              ],
+              "create": [
+                1502183638067
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898064693dce4106890d7e",
+            "_score": 4.196324,
+            "_source": {
+              "name": "自从穿上了这款T恤，没想到居然变白了",
+              "products": [
+                {
+                  "product": "59647ce21b150e4d3199a882",
+                  "amount": 1,
+                  "spec": "男款-白色-L",
+                  "price": 79
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "58f836c076680446477962ac",
+                "nickname": "ZCooL",
+                "create": "2017-04-20T04:19:12.358Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "ZCooL",
+                    "uid": "ovxrutw5zCBljUfE2cWw1OqVbgV0",
+                    "unionId": "oJBt0v8iIJmTM1t21mPdSEVhbQ-Q"
+                  },
+                  "phone": {
+                    "number": "13015880793"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:12:04.252Z",
+              "review": {
+                "_id": "59647ce21b150e4d3199a865",
+                "title": "自从穿上了这款T恤，没想到居然变白了",
+                "mainCategory": {
+                  "name": "数码家电",
+                  "_id": "593a011389953a53610e6fcb"
+                },
+                "minorCategory": {
+                  "name": "生活电器",
+                  "_id": "593a2cf018c10d54649ca4be"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58cb9c0a2712980b3b936e08",
+                "name": "差评黑市"
+              },
+              "transferFee": 6,
+              "serialNo": "20170808177949263188",
+              "address": {
+                "name": "阿超",
+                "address": "东城美居5号楼保安室",
+                "phone": "13015880793",
+                "city": "福建省泉州市石狮市"
+              },
+              "from": "app",
+              "totalPrice": 85,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1492661952358
+              ],
+              "create": [
+                1502183524252
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59897fd6f3cbfc0c06b9238c",
+            "_score": 3.5397825,
+            "_source": {
+              "name": "连帽的卫衣，是年轻该有的样子",
+              "products": [
+                {
+                  "product": "5982fda56c72f271dba588ca",
+                  "amount": 1,
+                  "spec": "白色/XL",
+                  "price": 98
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5970c00e43c0ab2ab579a66a",
+                "nickname": "A-YT潮鞋👟吴彦祖",
+                "create": "2017-07-20T14:37:02.974Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "A-YT潮鞋👟吴彦祖",
+                    "uid": "ovxrut-FO7AvYT3mP-1LyS-h-fN8",
+                    "unionId": "oJBt0v7JnNCZewMXRtMOb07Prt28",
+                    "openId": "oPN2mw3Q0aBul_I7BnLKZFnw_6Og"
+                  },
+                  "phone": {
+                    "number": "13030126762"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:09:42.359Z",
+              "review": {
+                "_id": "5982fda56c72f271dba588ab",
+                "mainCategory": {
+                  "name": "男装",
+                  "_id": "5939fcf9b079c329c2950e42"
+                },
+                "minorCategory": {
+                  "name": "上装",
+                  "_id": "5939fd3921ef14288ced5b43"
+                },
+                "title": "连帽的卫衣，是年轻该有的样子",
+                "merchant": {
+                  "_id": "5951caf158e7f02ee8076ee9",
+                  "name": "雅痞制噪 日系原创潮流集合店",
+                  "BD": {
+                    "_id": "57a9352d2c313bf960036231",
+                    "nickname": "一文"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "576783df58fb8f137ea3df94",
+                "name": "梵高先生"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808198039994818",
+              "address": {
+                "name": "许锦鸿",
+                "address": "碧水花城川料理马路对面TEAPLUS奶茶店",
+                "phone": "13030126762",
+                "city": "广东省韶关市武江区"
+              },
+              "from": "app",
+              "totalPrice": 88,
+              "originalTotalPrice": 0,
+              "coupon": {
+                "_id": "58e72710ea4a815da58f5ece",
+                "name": "邀请奖励自动发放"
+              },
+              "couponReduce": 10,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1500561422974
+              ],
+              "create": [
+                1502183382359
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59897ff02d806b40fa3081a7",
+            "_score": 3.527891,
+            "_source": {
+              "name": "一个自带夏日味道的火烈鸟水杯【小埋同款】",
+              "products": [
+                {
+                  "product": "593911c3be16f840f1ceb39d",
+                  "amount": 1,
+                  "spec": "杯子+盖子+吸管",
+                  "price": 28
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "5976a5571b823b03b1c1cd17",
+                "nickname": "Shdow_f51cb",
+                "create": "2017-07-25T01:56:39.467Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "Shdow",
+                    "uid": "ovxrut4qv2t91bKJj3HRqGyQNUsA",
+                    "unionId": "oJBt0v_C6HcjGeedXiiYiGboeZII"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:10:08.981Z",
+              "review": {
+                "_id": "593911c3be16f840f1ceb397",
+                "title": "一个自带夏日味道的火烈鸟水杯【小埋同款】",
+                "mainCategory": {
+                  "name": "居家用品",
+                  "_id": "5939fc3d40e2e1535bb4f3e0"
+                },
+                "minorCategory": {
+                  "name": "生活用品",
+                  "_id": "5939fc5b21ef14288ced5abc"
+                },
+                "merchant": {
+                  "_id": "5975da8c6a035b69d7877c6b",
+                  "name": "吉顺瓷艺",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808136321175633",
+              "address": {
+                "name": "权志龙",
+                "address": "壹号公馆六号楼",
+                "phone": "18953730575",
+                "city": "山东省济宁市梁山县"
+              },
+              "from": "app",
+              "totalPrice": 28,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1500947799467
+              ],
+              "create": [
+                1502183408981
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598980883797fb41c16f7fe8",
+            "_score": 3.3223739,
+            "_source": {
+              "name": "居然有一冲泡就能喝的银耳汤？为什么不早点让我知道！【野马实拍】",
+              "products": [
+                {
+                  "product": "58f84a2437258045171bcb5d",
+                  "amount": 1,
+                  "spec": "冻干冰糖雪梨银耳汤",
+                  "price": 39.2
+                }
+              ],
+              "type": "group",
+              "state": "paid",
+              "buyer": {
+                "_id": "58b6bb1877b4f660ab64f84e",
+                "nickname": "無_ac66c",
+                "create": "2017-03-01T12:14:16.193Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrut35fHUUxdL98t1Iffk4M8ms",
+                    "name": "無"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:12:40.681Z",
+              "review": {
+                "_id": "58f754ab89292f4653c81946",
+                "title": "居然有一冲泡就能喝的银耳汤？为什么不早点让我知道！【野马实拍】",
+                "merchant": {
+                  "_id": "58f08af537258045171b5f60",
+                  "name": "网易严选",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                },
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "方便速食",
+                  "_id": "5939ff45844cea5367cbb70e"
+                }
+              },
+              "channel": {
+                "_id": "58352791b55a182df9e4ccc7",
+                "name": "吃喝找野马"
+              },
+              "transferFee": 10,
+              "serialNo": "20170808161355651314",
+              "address": {
+                "name": "吴一",
+                "address": "闹市口大街11号",
+                "phone": "17600309805",
+                "city": "北京市北京市西城区"
+              },
+              "from": "app",
+              "totalPrice": 49.2,
+              "originalTotalPrice": 59,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1488370456193
+              ],
+              "create": [
+                1502183560681
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898309f3cbfc0c06b94741",
+            "_score": 3.2738972,
+            "_source": {
+              "name": "这枚书签让我静下心来读完了一本书",
+              "products": [
+                {
+                  "product": "59731bd96d18e64938cff84d",
+                  "amount": 1,
+                  "spec": "素色六只装（哑光马口铁盒）",
+                  "price": 104
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5937e216d4deaf3fe61b2f3e",
+                "nickname": "To_e5d1b",
+                "create": "2017-06-07T11:23:02.777Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "To",
+                    "uid": "ovxrutx_vPt5BK8KWVJwghy0kEZM",
+                    "unionId": "oJBt0vyBZNkJIdwjEUoSwKY4G_v8"
+                  },
+                  "phone": {
+                    "number": "13660226255"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:23:21.653Z",
+              "review": {
+                "_id": "59731bd96d18e64938cff844",
+                "title": "这枚书签让我静下心来读完了一本书",
+                "mainCategory": {
+                  "name": "其它",
+                  "_id": "5943389851ed9664bcce1ef3"
+                },
+                "minorCategory": {
+                  "name": "其它",
+                  "_id": "59436c20254a8530fa83f4b7"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "5952127b93b7be25cb365f98",
+                "name": "小日子"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808184149740041",
+              "address": {
+                "name": "梁柏迪",
+                "address": "市桥盛泰路黄沙岛中区三街十一号",
+                "phone": "13660226255",
+                "city": "广东省广州市番禺区"
+              },
+              "from": "app",
+              "totalPrice": 104,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1496834582777
+              ],
+              "create": [
+                1502184201653
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981a3f3cbfc0c06b93749",
+            "_score": 2.892159,
+            "_source": {
+              "name": "做一个干净利落的男生",
+              "products": [
+                {
+                  "product": "597cb4897cab6a4f1892ca25",
+                  "amount": 1,
+                  "spec": "调理乳",
+                  "price": 59
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "596f872e34a99a7a56e9c1f2",
+                "nickname": "刘瑞秋",
+                "create": "2017-07-19T16:22:06.840Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "刘瑞秋",
+                    "uid": "ovxrutzsKM-tdXnmpFkIazzKZV2Y",
+                    "unionId": "oJBt0v4DaYDclkzyofk0cjxTC2Pg",
+                    "openId": "oPN2mwzJmAZylUgGU8xndXo_VuRs"
+                  },
+                  "phone": {
+                    "number": "18842685677"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:17:23.015Z",
+              "review": {
+                "_id": "597cb4897cab6a4f1892ca0b",
+                "title": "做一个干净利落的男生",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "597aecc64cc3bb08e6d2456b",
+                  "name": "山亿日本美妆",
+                  "BD": {
+                    "_id": "595377175b76c16754875f69",
+                    "nickname": "吉良"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "576783df58fb8f137ea3df94",
+                "name": "梵高先生"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808122302703705",
+              "address": {
+                "name": "小刘",
+                "address": "回龙观 融泽嘉园西二路六号院6号楼1单元30层3003",
+                "phone": "18842685677",
+                "city": "北京市北京市昌平区"
+              },
+              "from": "app",
+              "totalPrice": 49,
+              "originalTotalPrice": 0,
+              "coupon": {
+                "_id": "5926a72882577c69ab27e8fa",
+                "name": "详情页分享-新人优惠券"
+              },
+              "couponReduce": 10,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1500481326840
+              ],
+              "create": [
+                1502183843015
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989832c2c952d0c1c2e90b5",
+            "_score": 2.8266158,
+            "_source": {
+              "name": "慵懒随性，这双鞋柔软得让我爱不释脚！",
+              "products": [
+                {
+                  "product": "592553cc2d3e616b17a51e98",
+                  "amount": 1,
+                  "spec": "黑色/35-40尺码请备注！",
+                  "price": 78
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58ff6a71ab0d843b00f41b86",
+                "nickname": "Echoao",
+                "create": "2017-04-25T15:25:37.152Z",
+                "bind": {
+                  "phone": {
+                    "number": "17854231759",
+                    "password": "eb95ae4d1b9fe6c8a5c1da50a7d5a60d"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:23:56.814Z",
+              "review": {
+                "_id": "592553cc2d3e616b17a51e6c",
+                "title": "慵懒随性，这双鞋柔软得让我爱不释脚！",
+                "mainCategory": {
+                  "name": "鞋靴",
+                  "_id": "5939fd62339f4628962644ea"
+                },
+                "minorCategory": {
+                  "name": "女鞋",
+                  "_id": "593a2edc339f462896265310"
+                },
+                "merchant": {
+                  "_id": "596c50970ad0cb077ebf38b8",
+                  "name": "变更review专用商家",
+                  "BD": {
+                    "_id": "58476edaf3adb95e7ecd6aa7",
+                    "nickname": "胡赞"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58eda23868fc6c4f83702c43",
+                "name": "嗜衣社长"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808129399913348",
+              "address": {
+                "name": "穆琳",
+                "address": "中再凤凰城23号楼一单元",
+                "phone": "17854231759",
+                "city": "山东省济南市商河县"
+              },
+              "from": "app",
+              "totalPrice": 78,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1493133937152
+              ],
+              "create": [
+                1502184236814
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989825cf3cbfc0c06b9404f",
+            "_score": 2.6572294,
+            "_source": {
+              "name": "牛奶洗脸，又是元气满满的一天",
+              "products": [
+                {
+                  "product": "596d717337864c54b3dd579c",
+                  "amount": 1,
+                  "spec": "牛奶洗面奶100g/mL",
+                  "price": 23.9
+                }
+              ],
+              "type": "group",
+              "state": "paid",
+              "buyer": {
+                "_id": "5953c695c416097a70491f44",
+                "nickname": "斟酌_5df45",
+                "create": "2017-06-28T15:09:09.157Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "斟酌",
+                    "uid": "ovxrutxA7u2QqN6SKC8XJ5SReJ8k",
+                    "unionId": "oJBt0v16AIUDiLUTx7g89P68Bkt4"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:20:28.270Z",
+              "review": {
+                "_id": "596d717337864c54b3dd5785",
+                "title": "牛奶洗脸，又是元气满满的一天",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "5953709c841eb468789a2298",
+                  "name": "泰国蕾拉代购",
+                  "BD": {
+                    "_id": "58df0dacde58d4595c6681e9",
+                    "nickname": "范豪锋"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "595b6a95b8af3459ca2bf81a",
+                "name": "花轮的梳妆台"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808182908993312",
+              "address": {
+                "name": "王晓",
+                "address": "南海路南海丽景小区",
+                "phone": "18837404870",
+                "city": "河南省驻马店市驿城区"
+              },
+              "from": "app",
+              "totalPrice": 23.9,
+              "originalTotalPrice": 28,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1498662549157
+              ],
+              "create": [
+                1502184028270
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981c4565cf84100a050f0",
+            "_score": 2.6221595,
+            "_source": {
+              "name": "日本最具人气的去角质产品——rosette诗留美屋去角质凝胶",
+              "products": [
+                {
+                  "product": "59489c3c5696bb57b59f2c53",
+                  "amount": 1,
+                  "spec": "rosette去角质",
+                  "price": 39.9
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58b8d0f98b20c41329505499",
+                "nickname": "米盎",
+                "create": "2017-03-03T02:12:09.527Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrutwChBICXCxegVf8s8GKzF_Y",
+                    "name": "米盎"
+                  },
+                  "phone": {
+                    "number": "18859271420"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:17:56.275Z",
+              "review": {
+                "_id": "59489c3c5696bb57b59f2c49",
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "title": "日本最具人气的去角质产品——rosette诗留美屋去角质凝胶",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "59394b20aea0a2554e034f22",
+                "name": "韩梅梅全球buy"
+              },
+              "transferFee": 6,
+              "serialNo": "20170808151118008032",
+              "address": {
+                "name": "陈梅芳",
+                "address": "厦门牛庄21号楼4楼快乐学习",
+                "phone": "18859271420",
+                "city": "福建省厦门市思明区"
+              },
+              "from": "app",
+              "totalPrice": 45.9,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1488507129527
+              ],
+              "create": [
+                1502183876275
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898000eb2cc741dfd4545e",
+            "_score": 2.5927057,
+            "_source": {
+              "name": "体能发动机 | 让小马达转起来！",
+              "products": [
+                {
+                  "product": "59883f17e180cd4edbb975fd",
+                  "amount": 1,
+                  "spec": "柠檬味 无咖啡因",
+                  "price": 8.5
+                },
+                {
+                  "product": "59883f17e180cd4edbb9760b",
+                  "amount": 1,
+                  "spec": "加强版 柠檬汽水 0咖啡因",
+                  "price": 15
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59871d9d3b1e137ff6382d24",
+                "nickname": "Nile",
+                "create": "2017-08-06T13:46:05.453Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "Nile",
+                    "uid": "ovxrut5DoTdz_J3ovZx4KFMBH_2s",
+                    "unionId": "oJBt0vz1xQk2gsqnh9uE45MoTKAg"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:10:24.572Z",
+              "review": {
+                "_id": "59883f17e180cd4edbb975e8",
+                "title": "体能发动机 | 让小马达转起来！",
+                "mainCategory": {
+                  "name": "保健成人",
+                  "_id": "593a2eba8e523c5485acd51d"
+                },
+                "minorCategory": {
+                  "name": "营养健康",
+                  "_id": "593a2ebc674ccc2880f3b47c"
+                },
+                "merchant": {
+                  "_id": "5988349fb6e926620c4376f8",
+                  "name": "51PB运动装备",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "585282dfa780f83f565337a0",
+                "name": "Irena. T"
+              },
+              "transferFee": 5,
+              "serialNo": "20170808160526810200",
+              "address": {
+                "name": "刘冰",
+                "address": "乐园一区33号楼2单元2楼左门",
+                "phone": "13252526009",
+                "city": "吉林省吉林市船营区"
+              },
+              "from": "app",
+              "fromChannel": "Uc",
+              "totalPrice": 28.5,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1502027165453
+              ],
+              "create": [
+                1502183424572
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989807b693dce4106890edb",
+            "_score": 2.5922859,
+            "_source": {
+              "name": "娇妹福利|今夏最夯的碎花Look~",
+              "products": [
+                {
+                  "product": "5980c552dbdf6e406de63610",
+                  "amount": 1,
+                  "spec": "蓝大花（均码下摆短）",
+                  "price": 75
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58f8d42ce61f915e236dddd1",
+                "nickname": "💋Witch·🐱",
+                "create": "2017-04-20T15:30:52.709Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "💋Witch·🐱",
+                    "uid": "ovxrutwIQXT-Zpc5Xc0EWAvRtU1c",
+                    "unionId": "oJBt0v-KXVh78adApEHeJVDaKM78",
+                    "openId": "oPN2mw3M70opUqSMMTtp5Pu7Gtuc"
+                  },
+                  "phone": {
+                    "number": "13242500696"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:12:27.506Z",
+              "review": {
+                "_id": "5980c552dbdf6e406de635ef",
+                "title": "娇妹福利|今夏最夯的碎花Look~",
+                "mainCategory": {
+                  "name": "女装",
+                  "_id": "5939fcb998e67b29e094add2"
+                },
+                "minorCategory": {
+                  "name": "上装",
+                  "_id": "5939fce257c7f0548f7731fd"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "57c12ef63773ea604b752b1f",
+                "name": "4 Missss"
+              },
+              "transferFee": 7,
+              "serialNo": "20170808116815995070",
+              "address": {
+                "name": "饶东龙",
+                "address": "车站街道南郊二公里香蜜园A栋1504",
+                "phone": "13242500696",
+                "city": "广东省韶关市浈江区"
+              },
+              "from": "app",
+              "totalPrice": 82,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1492702252709
+              ],
+              "create": [
+                1502183547506
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898021e69845410c3760ec",
+            "_score": 2.5922859,
+            "_source": {
+              "name": "水晶防晒喷雾，正在被古力娜扎疯狂的安利…",
+              "products": [
+                {
+                  "product": "5955e0f44895c63125d17a7a",
+                  "amount": 1,
+                  "spec": "【180ml】现货，新品",
+                  "price": 78
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "582aa3fadd109c0501bbde19",
+                "nickname": "Karton",
+                "create": "2016-11-15T05:58:18.580Z",
+                "bind": {
+                  "phone": {
+                    "number": "15770738182"
+                  },
+                  "QQ": {
+                    "uid": "077A50F93A445AA8F7C4351B5F19BE54",
+                    "name": "Karton"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:10:57.610Z",
+              "review": {
+                "_id": "5912a7d6d9515441525ad868",
+                "title": "水晶防晒喷雾，正在被古力娜扎疯狂的安利…",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58d38eaf80ea4a204be55a68",
+                "name": "好物研究室"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808199940775749",
+              "address": {
+                "name": "李淑敏",
+                "address": "城北街道联民东路279号",
+                "phone": "15770738182",
+                "city": "浙江省台州市温岭市"
+              },
+              "from": "app",
+              "totalPrice": 78,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1479189498580
+              ],
+              "create": [
+                1502183457610
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598982062d806b40fa309e76",
+            "_score": 2.5887976,
+            "_source": {
+              "name": "不用火不插电，五分钟搞定的超神器小火锅！",
+              "products": [
+                {
+                  "product": "58faf1aa22846269f266ef03",
+                  "amount": 1,
+                  "spec": "一盒",
+                  "price": 29
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "597bf19b97da834ddff65d33",
+                "nickname": "邪魅狂狷霸道受气小媳妇",
+                "create": "2017-07-29T02:23:23.183Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "邪魅狂狷霸道受气小媳妇",
+                    "uid": "ovxrut4r57J4_3iCg_b29-tuxNos",
+                    "unionId": "oJBt0v6aYcERFd2JTdWhR4Yh_9RM"
+                  },
+                  "phone": {
+                    "number": "18258981517"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:19:02.501Z",
+              "review": {
+                "_id": "58faf1aa22846269f266eefe",
+                "title": "不用火不插电，五分钟搞定的超神器小火锅！",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "方便速食",
+                  "_id": "5939ff45844cea5367cbb70e"
+                },
+                "merchant": {
+                  "_id": "598129ef46ad684b1b0c2ea4",
+                  "name": "大力 临时商家 邮费不准确",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808148579998666",
+              "address": {
+                "name": "周君平",
+                "address": "通惠门路109号芪真益草",
+                "phone": "13806797464",
+                "city": "浙江省金华市义乌市"
+              },
+              "from": "app",
+              "totalPrice": 29,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501295003183
+              ],
+              "create": [
+                1502183942501
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981d3eb2cc741dfd46c8b",
+            "_score": 2.5887976,
+            "_source": {
+              "name": "护肤 | 我的晒后美白，全靠它！",
+              "products": [
+                {
+                  "product": "59171424579bcc06103f7598",
+                  "amount": 1,
+                  "spec": "玫瑰水*1",
+                  "price": 42
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59895851099c59605e942e2f",
+                "nickname": "昨日星辰恰似你",
+                "create": "2017-08-08T06:21:05.180Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "奶糖",
+                    "uid": "ovxrutw4fLPy0DFB-PdY3U0hx8mo",
+                    "unionId": "oJBt0v2OTza22kqKuAG7XnfNX3O0"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:18:11.737Z",
+              "review": {
+                "_id": "59171424579bcc06103f7589",
+                "title": "护肤 | 我的晒后美白，全靠它！",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58c7ac5bde8f3b1dbd362ba3",
+                "name": "小田田酱"
+              },
+              "transferFee": 1,
+              "serialNo": "20170808164409599976",
+              "address": {
+                "name": "轩",
+                "address": "陈田村北约东街一号 （放在锐达超市）",
+                "phone": "18825089597",
+                "city": "广东省广州市白云区"
+              },
+              "from": "app",
+              "totalPrice": 43,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1502173265180
+              ],
+              "create": [
+                1502183891737
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598982d2f591d90d39f07609",
+            "_score": 2.5887976,
+            "_source": {
+              "name": "12天亲测有效的瘦身按摩仪 |【室长实测】",
+              "products": [
+                {
+                  "product": "594a20c1e2e48d5b22c5ed1f",
+                  "amount": 1,
+                  "spec": "无电流瘦身（大）",
+                  "price": 38
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5970aa26e916be7b3541a3ee",
+                "nickname": "名字只是代号_7c7cc",
+                "create": "2017-07-20T13:03:34.786Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "名字只是代号",
+                    "uid": "ovxrutzSCLRyipVR7wBllUtWm46Q",
+                    "unionId": "oJBt0v0ssXQvkUlIXbpnjQkrsFD8"
+                  },
+                  "phone": {
+                    "number": "13889900725"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:22:26.302Z",
+              "review": {
+                "_id": "594a20c1e2e48d5b22c5ecfd",
+                "title": "12天亲测有效的瘦身按摩仪 |【室长实测】",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "美容工具",
+                  "_id": "593a3099844cea5367cbbefa"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58d38eaf80ea4a204be55a68",
+                "name": "好物研究室"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808181496478623",
+              "address": {
+                "name": "陈荣",
+                "address": "黄华路97号",
+                "phone": "13889900725",
+                "city": "广东省广州市越秀区"
+              },
+              "from": "app",
+              "totalPrice": 38,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1500555814786
+              ],
+              "create": [
+                1502184146302
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598980b5693dce41068912d2",
+            "_score": 2.5627728,
+            "_source": {
+              "name": "水果干泡的茶，颜值、美味、营养全都有！",
+              "products": [
+                {
+                  "product": "595e43f71894bf5aab2f75f4",
+                  "amount": 1,
+                  "spec": "果片茶一盒/20包",
+                  "price": 39.9
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "596732dc20d33e0d26518af6",
+                "nickname": "火球_MU_f4033",
+                "create": "2017-07-13T08:44:12.062Z",
+                "bind": {
+                  "phone": {
+                    "number": "13590439203"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:13:25.462Z",
+              "review": {
+                "_id": "595e43f71894bf5aab2f75dc",
+                "title": "水果干泡的茶，颜值、美味、营养全都有！",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "茶冲咖啡",
+                  "_id": "5939ff4318c10d54649c9970"
+                },
+                "merchant": {
+                  "_id": "595e34ee1775be5ab5576297",
+                  "name": "喜善花房专营店",
+                  "BD": {
+                    "_id": "595375cfa6a5c85f67152012",
+                    "nickname": "双吉1"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58352791b55a182df9e4ccc7",
+                "name": "吃喝找野马"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808199907830032",
+              "address": {
+                "name": "张小姐",
+                "address": "保税区桃花路9号 腾邦集团大厦",
+                "phone": "13590439203",
+                "city": "广东省深圳市福田区"
+              },
+              "from": "app",
+              "totalPrice": 39.9,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1499935452062
+              ],
+              "create": [
+                1502183605462
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981352c952d0c1c2e791d",
+            "_score": 2.4975338,
+            "_source": {
+              "name": "能理发的剃须刀，你敢信？",
+              "products": [
+                {
+                  "product": "595b380c7f7c5a59da88a34e",
+                  "amount": 1,
+                  "spec": "黑色 / 防水",
+                  "price": 139
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58c12bb0f0b9090edc66b08c",
+                "nickname": "wang渐渐💭",
+                "create": "2017-03-09T10:17:20.360Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrut8_-N7YYCU8qX0vz_LR5Ero",
+                    "name": "wang渐渐💭"
+                  },
+                  "phone": {
+                    "number": "18257559858"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:15:33.801Z",
+              "review": {
+                "_id": "595b380c7f7c5a59da88a341",
+                "title": "能理发的剃须刀，你敢信？",
+                "mainCategory": {
+                  "name": "个人清洁洗护",
+                  "_id": "593a2e7cb079c329c2951967"
+                },
+                "minorCategory": {
+                  "name": "男士护理",
+                  "_id": "593a2e94339f4628962652f1"
+                },
+                "merchant": {
+                  "_id": "58f08af537258045171b5f60",
+                  "name": "网易严选",
+                  "BD": {
+                    "_id": "580ebbe4f5cc0b4e409938ac",
+                    "nickname": "陈奉"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "576783df58fb8f137ea3df94",
+                "name": "梵高先生"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808135714874292",
+              "address": {
+                "name": "王建红",
+                "address": "金钱巷社区严衙弄12幢4单元601",
+                "phone": "18257559858",
+                "city": "浙江省杭州市上城区"
+              },
+              "from": "app",
+              "totalPrice": 139,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1489054640360
+              ],
+              "create": [
+                1502183733801
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981c580bced0d3302e919",
+            "_score": 2.1585364,
+            "_source": {
+              "name": "浓眉，才能大眼",
+              "products": [
+                {
+                  "product": "5970aee2098c5d2ac9d6c6f9",
+                  "amount": 1,
+                  "spec": "2#浅灰咖",
+                  "price": 25
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "58edf21da64963195aac835c",
+                "nickname": "你猜拉钩为什么要上吊_71bbf",
+                "create": "2017-04-12T09:23:41.773Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "常大爺",
+                    "uid": "ovxrut3ROO2yJplR9sNE8u9CDg5w",
+                    "unionId": "oJBt0v7lB2duy5FzZhJxuSS0od4w",
+                    "openId": "oPN2mw5tyWcuRje7jHl2PKAZEEmw"
+                  },
+                  "phone": {
+                    "number": "15081314497"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:17:57.537Z",
+              "review": {
+                "_id": "5970aee2098c5d2ac9d6c6f2",
+                "title": "浓眉，才能大眼",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "缤纷彩妆",
+                  "_id": "593a3098ae7bcf29b2fe66f4"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "59394b20aea0a2554e034f22",
+                "name": "韩梅梅全球buy"
+              },
+              "transferFee": 6,
+              "serialNo": "20170808131868316757",
+              "address": {
+                "name": "常文齐",
+                "address": "老鸦庄镇锦绣园西小区8＃底商彩虹蜗牛素质教育中心",
+                "phone": "15081314497",
+                "city": "河北省张家口市桥东区"
+              },
+              "from": "app",
+              "totalPrice": 31,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1491989021773
+              ],
+              "create": [
+                1502183877537
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981aa04b99a0c166b2b6c",
+            "_score": 2.1523666,
+            "_source": {
+              "name": "清洁面膜就是要变泡泡吞噬脏东西！",
+              "products": [
+                {
+                  "product": "597449f039a61f6d0e258a50",
+                  "amount": 1,
+                  "spec": "经典版泡泡6片",
+                  "price": 28
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "598573589ec6d875d0cf20ea",
+                "nickname": "牛牛_5979c",
+                "create": "2017-08-05T07:27:20.120Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "牛牛",
+                    "uid": "ovxrut1RBjpCF5sxe4H8cVG82qEc",
+                    "unionId": "oJBt0v86eUSmjfsIo3stSh06z2Vc"
+                  },
+                  "phone": {
+                    "number": "15001192403"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:17:30.034Z",
+              "review": {
+                "_id": "597449f039a61f6d0e258a3e",
+                "title": "清洁面膜就是要变泡泡吞噬脏东西！",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58c9ed0cc48cae7fe0e57d5f",
+                "name": "Little Pieces"
+              },
+              "transferFee": 10,
+              "serialNo": "20170808109619618713",
+              "address": {
+                "name": "牛圣元",
+                "address": "中关村南大街5号院",
+                "phone": "15001192403",
+                "city": "北京市北京市海淀区"
+              },
+              "from": "app",
+              "totalPrice": 38,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501918040120
+              ],
+              "create": [
+                1502183850034
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989822095ae470d2688e945",
+            "_score": 2.1520877,
+            "_source": {
+              "name": "泰国面部特效清洁三件套  脸鼻口，都不许放过",
+              "products": [
+                {
+                  "product": "5909b9f964a4c92b4d8769d2",
+                  "amount": 1,
+                  "spec": "去黑头",
+                  "price": 25
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58de4404e1dac11c36a3aa4b",
+                "nickname": "W._0c388",
+                "create": "2017-03-31T11:56:52.073Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "W.",
+                    "uid": "ovxrut4ELBWHraL8Bm6tS1_qy64k",
+                    "unionId": "oJBt0vz-clV2XbmoDFCWVusx_Wu8"
+                  },
+                  "phone": {
+                    "number": "15695164245",
+                    "password": "3a6a5e0fa835ff78f623fd3ea2b83abf"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:19:28.006Z",
+              "review": {
+                "_id": "5909a3615cd84e1629060767",
+                "title": "泰国面部特效清洁三件套  脸鼻口，都不许放过",
+                "mainCategory": {
+                  "name": "个人清洁洗护",
+                  "_id": "593a2e7cb079c329c2951967"
+                },
+                "minorCategory": {
+                  "name": "身体护理",
+                  "_id": "593a2fe421ef14288ced64d4"
+                },
+                "merchant": {
+                  "_id": "59807de6d728b14158548230",
+                  "name": "外部买手变更review专用商家",
+                  "BD": {
+                    "_id": "5694b8807aff70d36f526a19",
+                    "nickname": "火球君"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58d38eaf80ea4a204be55a68",
+                "name": "好物研究室"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808129933970226",
+              "address": {
+                "name": "艾靖",
+                "address": "铁心桥大街36号04栋1010室",
+                "phone": "17314605211",
+                "city": "江苏省南京市雨花台区"
+              },
+              "from": "app",
+              "totalPrice": 25,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1490961412073
+              ],
+              "create": [
+                1502183968006
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898313e69845410c378b74",
+            "_score": 1.5570698,
+            "_source": {
+              "name": "这是一双能陪伴你的帆布鞋，该有的倔强！",
+              "products": [
+                {
+                  "product": "590015f9e86eeb76370d343a",
+                  "amount": 1,
+                  "spec": "白色（女款35-40码，请备注！）",
+                  "price": 69
+                },
+                {
+                  "product": "590015f9e86eeb76370d343b",
+                  "amount": 1,
+                  "spec": "白色（男款39-44码，请备注！）",
+                  "price": 69
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "597e66f9fdd8124f020cbdd6",
+                "nickname": "无人_976b6",
+                "create": "2017-07-30T23:08:41.346Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "无人",
+                    "uid": "ovxrut__dy11ixvRXIZTm4QGBWXg",
+                    "unionId": "oJBt0v_JwwRDVdkdw5jyJg9cYayM"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:23:31.897Z",
+              "review": {
+                "_id": "590015f9e86eeb76370d3431",
+                "title": "这是一双能陪伴你的帆布鞋，该有的倔强！",
+                "mainCategory": {
+                  "name": "鞋靴",
+                  "_id": "5939fd62339f4628962644ea"
+                },
+                "minorCategory": {
+                  "name": "女鞋",
+                  "_id": "593a2edc339f462896265310"
+                },
+                "merchant": {
+                  "_id": "5981327d044f434a3b6617f3",
+                  "name": "祝媛 临时商家 邮费不准",
+                  "BD": {
+                    "_id": "5817f53ae3f48441183792bf",
+                    "nickname": "祝媛"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58eda23868fc6c4f83702c43",
+                "name": "嗜衣社长"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808152514143578",
+              "address": {
+                "name": "张昊",
+                "address": "滨河路光明小区十号楼二单元三楼东户",
+                "phone": "15137808101",
+                "city": "河南省开封市尉氏县"
+              },
+              "from": "app",
+              "fromChannel": "Huawei",
+              "totalPrice": 138,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501456121346
+              ],
+              "create": [
+                1502184211897
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989806a04b99a0c166b1d68",
+            "_score": 1.5550473,
+            "_source": {
+              "name": "以裸体命名的薄荷糖，感受一丝不挂的清凉劲爽",
+              "products": [
+                {
+                  "product": "59534a7392bfa72e8c50f39d",
+                  "amount": 1,
+                  "spec": "树莓薄荷",
+                  "price": 28
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "5984fdc06450b502282a89d5",
+                "nickname": "♛丿炫琰",
+                "create": "2017-08-04T23:05:36.406Z",
+                "bind": {
+                  "phone": {
+                    "number": "13119782208"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:12:10.817Z",
+              "review": {
+                "_id": "59534a7392bfa72e8c50f38f",
+                "title": "以裸体命名的薄荷糖，感受一丝不挂的清凉劲爽",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "休闲零食",
+                  "_id": "5939ff4698e67b29e094aef3"
+                },
+                "merchant": {
+                  "_id": "5954cdc5da30cd19c8cf975c",
+                  "name": "休易猴",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "574ba014e5933aef1b928abf",
+                "name": "有怪售"
+              },
+              "transferFee": 8,
+              "serialNo": "20170808137537800930",
+              "address": {
+                "name": "董景沁",
+                "address": "海胡新区金座晟锦A区4号楼1单元1051",
+                "phone": "13119782208",
+                "city": "青海省西宁市城西区"
+              },
+              "from": "app",
+              "fromChannel": "Vivo",
+              "totalPrice": 36,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501887936406
+              ],
+              "create": [
+                1502183530817
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898080f591d90d39f05d9b",
+            "_score": 1.5515532,
+            "_source": {
+              "name": "以裸体命名的薄荷糖，感受一丝不挂的清凉劲爽",
+              "products": [
+                {
+                  "product": "59534a7392bfa72e8c50f39d",
+                  "amount": 1,
+                  "spec": "树莓薄荷",
+                  "price": 28
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5984fdc06450b502282a89d5",
+                "nickname": "♛丿炫琰",
+                "create": "2017-08-04T23:05:36.406Z",
+                "bind": {
+                  "phone": {
+                    "number": "13119782208"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:12:32.142Z",
+              "review": {
+                "_id": "59534a7392bfa72e8c50f38f",
+                "title": "以裸体命名的薄荷糖，感受一丝不挂的清凉劲爽",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "休闲零食",
+                  "_id": "5939ff4698e67b29e094aef3"
+                },
+                "merchant": {
+                  "_id": "5954cdc5da30cd19c8cf975c",
+                  "name": "休易猴",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "574ba014e5933aef1b928abf",
+                "name": "有怪售"
+              },
+              "transferFee": 8,
+              "serialNo": "20170808164238448775",
+              "address": {
+                "name": "董景沁",
+                "address": "海胡新区金座晟锦A区4号楼1单元1051",
+                "phone": "13119782208",
+                "city": "青海省西宁市城西区"
+              },
+              "from": "app",
+              "fromChannel": "Vivo",
+              "totalPrice": 36,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "pingxxRefund": {
+                "_id": "598983462a7a6a4118f29430",
+                "order": "59898080f591d90d39f05d9b",
+                "review": "59534a7392bfa72e8c50f38f",
+                "price": 36,
+                "reason": "用户申请",
+                "__v": 0,
+                "create": "2017-08-08T09:24:22.544Z",
+                "state": "apply"
+              },
+              "pingxxRefundState": "apply",
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501887936406
+              ],
+              "create": [
+                1502183552142
+              ],
+              "pingxxRefund.create": [
+                1502184262544
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598982bc64819741cf5276d3",
+            "_score": 1.5515532,
+            "_source": {
+              "name": "这是一双能陪伴你的帆布鞋，该有的倔强！",
+              "products": [
+                {
+                  "product": "590015f9e86eeb76370d343a",
+                  "amount": 1,
+                  "spec": "白色（女款35-40码，请备注！）",
+                  "price": 69
+                },
+                {
+                  "product": "590015f9e86eeb76370d343b",
+                  "amount": 1,
+                  "spec": "白色（男款39-44码，请备注！）",
+                  "price": 69
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "597e66f9fdd8124f020cbdd6",
+                "nickname": "无人_976b6",
+                "create": "2017-07-30T23:08:41.346Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "无人",
+                    "uid": "ovxrut__dy11ixvRXIZTm4QGBWXg",
+                    "unionId": "oJBt0v_JwwRDVdkdw5jyJg9cYayM"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:22:04.023Z",
+              "review": {
+                "_id": "590015f9e86eeb76370d3431",
+                "title": "这是一双能陪伴你的帆布鞋，该有的倔强！",
+                "mainCategory": {
+                  "name": "鞋靴",
+                  "_id": "5939fd62339f4628962644ea"
+                },
+                "minorCategory": {
+                  "name": "女鞋",
+                  "_id": "593a2edc339f462896265310"
+                },
+                "merchant": {
+                  "_id": "5981327d044f434a3b6617f3",
+                  "name": "祝媛 临时商家 邮费不准",
+                  "BD": {
+                    "_id": "5817f53ae3f48441183792bf",
+                    "nickname": "祝媛"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58eda23868fc6c4f83702c43",
+                "name": "嗜衣社长"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808174456747847",
+              "address": {
+                "name": "张昊",
+                "address": "滨河路光明小区十号楼二单元三楼东户",
+                "phone": "15137808101",
+                "city": "河南省开封市尉氏县"
+              },
+              "from": "app",
+              "fromChannel": "Huawei",
+              "totalPrice": 138,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501456121346
+              ],
+              "create": [
+                1502184124023
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981ba04b99a0c166b2c37",
+            "_score": 1.5101802,
+            "_source": {
+              "name": "牛奶洗脸，又是元气满满的一天",
+              "products": [
+                {
+                  "product": "596d717337864c54b3dd579c",
+                  "amount": 1,
+                  "spec": "牛奶洗面奶100g/mL",
+                  "price": 23.9
+                }
+              ],
+              "type": "group",
+              "state": "paid",
+              "buyer": {
+                "_id": "58cffba1fe75d02a95860779",
+                "nickname": "к_7ae55",
+                "create": "2017-03-20T15:56:17.454Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "к",
+                    "uid": "ovxrut9LbaFF6DMp7dZMbXeB4WzE",
+                    "unionId": "oJBt0v6BRQeYSWdTvqZhapzENaH8",
+                    "openId": "oPN2mw3Qa-MKF14qIaIduxIsKNZE"
+                  },
+                  "phone": {
+                    "number": "13508636488"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx_pub",
+              "create": "2017-08-08T09:17:46.176Z",
+              "review": {
+                "_id": "596d717337864c54b3dd5785",
+                "title": "牛奶洗脸，又是元气满满的一天",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "5953709c841eb468789a2298",
+                  "name": "泰国蕾拉代购",
+                  "BD": {
+                    "_id": "58df0dacde58d4595c6681e9",
+                    "nickname": "范豪锋"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "595b6a95b8af3459ca2bf81a",
+                "name": "花轮的梳妆台"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808163124885481",
+              "address": {
+                "name": "李红秀",
+                "address": "国土资源局",
+                "phone": "13971966651",
+                "city": "湖北省孝感市安陆市"
+              },
+              "from": "web",
+              "totalPrice": 13.9,
+              "originalTotalPrice": 28,
+              "coupon": {
+                "_id": "58e72710ea4a815da58f5ece",
+                "name": "邀请奖励自动发放"
+              },
+              "couponReduce": 10,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1490025377454
+              ],
+              "create": [
+                1502183866176
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989822c2d806b40fa30a0b9",
+            "_score": 1.5069762,
+            "_source": {
+              "name": "牛奶洗脸，又是元气满满的一天",
+              "products": [
+                {
+                  "product": "596d717337864c54b3dd579c",
+                  "amount": 1,
+                  "spec": "牛奶洗面奶100g/mL",
+                  "price": 28
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59616591297f9b3d5e7adbbd",
+                "nickname": "Kjdnf",
+                "create": "2017-07-08T23:06:57.496Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "Kjdnf",
+                    "uid": "ovxrutx6NSXHLDWXlrZRYqQYSTQM",
+                    "unionId": "oJBt0v4MpYGwFOZ-PeCLNTw_TvzM"
+                  },
+                  "phone": {
+                    "number": "18974876445"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:19:40.514Z",
+              "review": {
+                "_id": "596d717337864c54b3dd5785",
+                "title": "牛奶洗脸，又是元气满满的一天",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "5953709c841eb468789a2298",
+                  "name": "泰国蕾拉代购",
+                  "BD": {
+                    "_id": "58df0dacde58d4595c6681e9",
+                    "nickname": "范豪锋"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "595b6a95b8af3459ca2bf81a",
+                "name": "花轮的梳妆台"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808128383630275",
+              "address": {
+                "name": "杨鲲鹏",
+                "address": "中江丽晶苑五单元410",
+                "phone": "18974876445",
+                "city": "湖南省长沙市雨花区"
+              },
+              "from": "app",
+              "fromChannel": "Vivo",
+              "totalPrice": 28,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1499555217496
+              ],
+              "create": [
+                1502183980514
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981d23797fb41c16f9376",
+            "_score": 1.5069762,
+            "_source": {
+              "name": "牛奶洗脸，又是元气满满的一天",
+              "products": [
+                {
+                  "product": "596d717337864c54b3dd579c",
+                  "amount": 1,
+                  "spec": "牛奶洗面奶100g/mL",
+                  "price": 23.9
+                }
+              ],
+              "type": "group",
+              "state": "paid",
+              "buyer": {
+                "_id": "5984195b38bd78393a671275",
+                "nickname": "좋아해요_96f76",
+                "create": "2017-08-04T06:51:07.005Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "좋아해요",
+                    "uid": "ovxrut3SdtfcYJxZA-SP7rDqlt7Y",
+                    "unionId": "oJBt0vyzHC9z7ZF5FHJZvqypg3eI"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:18:10.959Z",
+              "review": {
+                "_id": "596d717337864c54b3dd5785",
+                "title": "牛奶洗脸，又是元气满满的一天",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                },
+                "merchant": {
+                  "_id": "5953709c841eb468789a2298",
+                  "name": "泰国蕾拉代购",
+                  "BD": {
+                    "_id": "58df0dacde58d4595c6681e9",
+                    "nickname": "范豪锋"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "595b6a95b8af3459ca2bf81a",
+                "name": "花轮的梳妆台"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808181912142269",
+              "address": {
+                "name": "綦航",
+                "address": "站前街壳牌加油站对面宏源保温",
+                "phone": "13791897769",
+                "city": "山东省潍坊市高密市"
+              },
+              "from": "app",
+              "fromChannel": "Huawei",
+              "totalPrice": 23.9,
+              "originalTotalPrice": 28,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501829467005
+              ],
+              "create": [
+                1502183890959
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989800ae69845410c375f66",
+            "_score": 1.4904208,
+            "_source": {
+              "name": "一只不得不入的卡西欧手表",
+              "products": [
+                {
+                  "product": "598560216094a1752e6f4edf",
+                  "amount": 1,
+                  "spec": "白盘小数字",
+                  "price": 99
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "5985e8ef9ec6d875d0d651ef",
+                "nickname": "_cdbdf",
+                "create": "2017-08-05T15:49:03.721Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "",
+                    "uid": "ovxrut6KzvVfFL2aUW28SdAdI6Mc",
+                    "unionId": "oJBt0v4KSUn6zn1fBVTSpUP9yJYA"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:10:34.434Z",
+              "review": {
+                "_id": "598560216094a1752e6f4ecf",
+                "title": "一只不得不入的卡西欧手表",
+                "mainCategory": {
+                  "name": "饰品配件",
+                  "_id": "5939fe96339f4628962645a1"
+                },
+                "minorCategory": {
+                  "name": "手表",
+                  "_id": "5939feb6844cea5367cbb70d"
+                },
+                "merchant": {
+                  "_id": "59841bb59ec0cc386d7f95f9",
+                  "name": "海外正品直邮代购（卡西欧手表）",
+                  "BD": {
+                    "_id": "5817f53ae3f48441183792bf",
+                    "nickname": "祝媛"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "57bd450a06833d18586a38df",
+                "name": "24 / cafe"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808179618095739",
+              "address": {
+                "name": "辛佳儿",
+                "address": "鸥汀街道西畔南环西街一巷铺面",
+                "phone": "15815104749",
+                "city": "广东省汕头市龙湖区"
+              },
+              "from": "app",
+              "fromChannel": "Tencent",
+              "totalPrice": 99,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501948143721
+              ],
+              "create": [
+                1502183434434
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598980e9a6f2c70c0c412d33",
+            "_score": 1.4904208,
+            "_source": {
+              "name": "来了，带你犯规的拼色迷彩短裤",
+              "products": [
+                {
+                  "product": "595b7e504182b8298cbee09e",
+                  "amount": 1,
+                  "spec": "浅迷彩色/L",
+                  "price": 89
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59562f1f5cdaaa2244692282",
+                "nickname": "湉晨",
+                "create": "2017-06-30T10:59:43.732Z",
+                "bind": {
+                  "phone": {
+                    "number": "15062360864"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:14:17.841Z",
+              "review": {
+                "_id": "595b7e504182b8298cbee096",
+                "minorCategory": {
+                  "name": "裤装",
+                  "_id": "5939fd38b079c329c2950e4b"
+                },
+                "title": "来了，带你犯规的拼色迷彩短裤",
+                "merchant": {
+                  "_id": "59584b5fe227951732a2eb87",
+                  "name": "「HAOKU浩库」原创男装店",
+                  "BD": {
+                    "_id": "595377175b76c16754875f69",
+                    "nickname": "吉良"
+                  }
+                },
+                "mainCategory": {
+                  "name": "男装",
+                  "_id": "5939fcf9b079c329c2950e42"
+                }
+              },
+              "channel": {
+                "_id": "582202aaefbd0d349f5bf780",
+                "name": "盐"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808133784161540",
+              "address": {
+                "name": "李敏",
+                "address": "越溪苏街123号",
+                "phone": "15062360864",
+                "city": "江苏省苏州市吴中区"
+              },
+              "from": "app",
+              "totalPrice": 89,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1498820383732
+              ],
+              "create": [
+                1502183657841
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989802bf3cbfc0c06b926e7",
+            "_score": 1.488451,
+            "_source": {
+              "name": "新学期了，不来个新书包吗",
+              "products": [
+                {
+                  "product": "59828c41d38fc275bb79ab11",
+                  "amount": 1,
+                  "spec": "黑色",
+                  "price": 69.99
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "58d26e2d0ae241364200ce9f",
+                "nickname": "想发光的少年",
+                "create": "2017-03-22T12:29:33.915Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "想发光的少年",
+                    "uid": "ovxrutzJ2b7Y0-3Su_FsDvUizKyY",
+                    "unionId": "oJBt0v9-BWMgHp-eh4YE-GeufL0Y"
+                  },
+                  "phone": {
+                    "number": "18257065286"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:11:07.566Z",
+              "review": {
+                "_id": "597ef66ee144ef385a1dbe77",
+                "title": "新学期了，不来个新书包吗",
+                "mainCategory": {
+                  "name": "箱包皮具",
+                  "_id": "5939fdf730603d29bc4bddda"
+                },
+                "minorCategory": {
+                  "name": "男包",
+                  "_id": "5939fe23674ccc2880f3aa7f"
+                },
+                "merchant": {
+                  "_id": "58d47b64d26987165b3fa6c2",
+                  "name": "卡夫卡",
+                  "BD": {
+                    "_id": "580ebbd699f8134e461436e7",
+                    "nickname": "皮皮Bay"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "572ffccd5b44fc573b3ee66e",
+                "name": "玛丽不酥"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808150872473256",
+              "address": {
+                "name": "吕强",
+                "address": "横店镇梦幻谷门卫值班室",
+                "phone": "18257065286",
+                "city": "浙江省金华市东阳市"
+              },
+              "from": "app",
+              "totalPrice": 69.99,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1490185773915
+              ],
+              "create": [
+                1502183467566
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989805b04b99a0c166b1cca",
+            "_score": 1.4853833,
+            "_source": {
+              "name": "新学期了，不来个新书包吗",
+              "products": [
+                {
+                  "product": "59828c41d38fc275bb79ab11",
+                  "amount": 1,
+                  "spec": "黑色",
+                  "price": 69.99
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58d26e2d0ae241364200ce9f",
+                "nickname": "想发光的少年",
+                "create": "2017-03-22T12:29:33.915Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "想发光的少年",
+                    "uid": "ovxrutzJ2b7Y0-3Su_FsDvUizKyY",
+                    "unionId": "oJBt0v9-BWMgHp-eh4YE-GeufL0Y"
+                  },
+                  "phone": {
+                    "number": "18257065286"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:11:55.444Z",
+              "review": {
+                "_id": "597ef66ee144ef385a1dbe77",
+                "title": "新学期了，不来个新书包吗",
+                "mainCategory": {
+                  "name": "箱包皮具",
+                  "_id": "5939fdf730603d29bc4bddda"
+                },
+                "minorCategory": {
+                  "name": "男包",
+                  "_id": "5939fe23674ccc2880f3aa7f"
+                },
+                "merchant": {
+                  "_id": "58d47b64d26987165b3fa6c2",
+                  "name": "卡夫卡",
+                  "BD": {
+                    "_id": "580ebbd699f8134e461436e7",
+                    "nickname": "皮皮Bay"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "572ffccd5b44fc573b3ee66e",
+                "name": "玛丽不酥"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808141251221256",
+              "address": {
+                "name": "吕强",
+                "address": "横店镇梦幻谷门卫值班室",
+                "phone": "18257065286",
+                "city": "浙江省金华市东阳市"
+              },
+              "from": "app",
+              "totalPrice": 69.99,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1490185773915
+              ],
+              "create": [
+                1502183515444
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898069565cf84100a03cdf",
+            "_score": 1.4420141,
+            "_source": {
+              "name": "告别激凸解放乳房，过一个没有束缚的夏天",
+              "products": [
+                {
+                  "product": "598806e5db4f543358a08f1b",
+                  "amount": 1,
+                  "spec": "乳贴/6对装",
+                  "price": 22.5
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58e4d836d1e9924727399ded",
+                "nickname": "伊妹不酷",
+                "create": "2017-04-05T11:42:46.803Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "伊妹不酷",
+                    "openId": "oPN2mw72isCcgoBKeLaJ10VcROL8",
+                    "unionId": "oJBt0vySxARDxzrBoNo4meHLbXAg",
+                    "uid": "ovxrut07aaHTD1zJFyyd5_Jvk9gg"
+                  },
+                  "phone": {
+                    "number": "18773908642"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:12:09.482Z",
+              "review": {
+                "_id": "598806e4db4f543358a08f15",
+                "title": "告别激凸解放乳房，过一个没有束缚的夏天",
+                "mainCategory": {
+                  "name": "其它",
+                  "_id": "5943389851ed9664bcce1ef3"
+                },
+                "minorCategory": {
+                  "name": "其它",
+                  "_id": "59436c20254a8530fa83f4b7"
+                },
+                "merchant": {
+                  "_id": "598145fcdbdf6e406de65e61",
+                  "name": "张俊杰 临时商家 邮费不准",
+                  "BD": {
+                    "_id": "5965d353b2db565a3833969a",
+                    "nickname": "张俊杰1"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58ca5cd53ac7b84853e739d9",
+                "name": "23:59"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808160314291402",
+              "address": {
+                "name": "张腾鹰",
+                "address": "高桥街道尚东紫郡B栋一单元",
+                "phone": "18773908642",
+                "city": "湖南省长沙市雨花区"
+              },
+              "from": "app",
+              "totalPrice": 22.5,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1491392566803
+              ],
+              "create": [
+                1502183529482
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898317a6f2c70c0c414681",
+            "_score": 1.4420141,
+            "_source": {
+              "name": "自我是永不能被磨去的棱角，风格亦然！",
+              "products": [
+                {
+                  "product": "593cd5d56bb51d6b2242d07c",
+                  "amount": 1,
+                  "spec": "黑色/M",
+                  "price": 49
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5953a3d478fc567a76924fea",
+                "nickname": "me-尛笨",
+                "create": "2017-06-28T12:40:52.402Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "me-尛笨",
+                    "uid": "ovxrut6UItVMJ1Dpud1D7z4tWBOs",
+                    "unionId": "oJBt0v9hWzSRFe4iAvUmpDKv_TCg"
+                  },
+                  "phone": {
+                    "number": "18767121534"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:23:35.222Z",
+              "review": {
+                "_id": "593cd5d56bb51d6b2242d062",
+                "title": "自我是永不能被磨去的棱角，风格亦然！",
+                "mainCategory": {
+                  "name": "女装",
+                  "_id": "5939fcb998e67b29e094add2"
+                },
+                "minorCategory": {
+                  "name": "上装",
+                  "_id": "5939fce257c7f0548f7731fd"
+                },
+                "merchant": {
+                  "_id": "5934c07beb40013ecde2e30d",
+                  "name": "嘟啦家",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58eda23868fc6c4f83702c43",
+                "name": "嗜衣社长"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808146818159055",
+              "address": {
+                "name": "孙雪梅",
+                "address": "文一西路1288号海创科技中心4幢406",
+                "phone": "18767121534",
+                "city": "浙江省杭州市余杭区"
+              },
+              "from": "app",
+              "totalPrice": 49,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1498653652402
+              ],
+              "create": [
+                1502184215222
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981d595ae470d2688e662",
+            "_score": 1.4412267,
+            "_source": {
+              "name": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+              "products": [
+                {
+                  "product": "58cb45f964b56e1571c216ea",
+                  "amount": 1,
+                  "spec": "牛奶（一箱16袋）",
+                  "price": 38
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58d7967aea8dab1f084458d6",
+                "nickname": "巴啦啦啦噜💤",
+                "create": "2017-03-26T10:22:50.072Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "巴啦啦啦噜💤",
+                    "uid": "ovxrut15A9Zhgta6TDguAj1R4dgU",
+                    "unionId": "oJBt0v-L-bfzrmgFM0o8tep0Zv1k"
+                  },
+                  "phone": {
+                    "number": "13626651637"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:18:13.021Z",
+              "review": {
+                "_id": "58cb45f964b56e1571c216e5",
+                "title": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "酒水饮料",
+                  "_id": "5939ff44cca2c95470ad86df"
+                },
+                "merchant": {
+                  "_id": "5975d722ec6ca72faaac4f62",
+                  "name": "科迪",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808119919091145",
+              "address": {
+                "name": "罗赛赛",
+                "address": "金清镇浙江民泰商业银行",
+                "phone": "13626651637",
+                "city": "浙江省台州市路桥区"
+              },
+              "from": "app",
+              "totalPrice": 38,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1490523770072
+              ],
+              "create": [
+                1502183893021
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989822ceb2cc741dfd470b4",
+            "_score": 1.4412267,
+            "_source": {
+              "name": "【社长·实拍】在浩瀚星空中，找到属于你的那颗",
+              "products": [
+                {
+                  "product": "595a118bcd7ef867a3700a11",
+                  "amount": 1,
+                  "spec": "太阳-单颗手链",
+                  "price": 29
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59898089565cf84100a03ee8",
+                "nickname": "binzhen",
+                "create": "2017-08-08T09:12:41.724Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "binzhen",
+                    "uid": "ovxrutxvFaQxxTxuVx6Ryk8xQ92E",
+                    "unionId": "oJBt0v64dIlTeV9ubuvybTiDyu0E",
+                    "openId": "oPN2mw5eyhAjd6qX07hamQGQRe10"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "wx_pub",
+              "create": "2017-08-08T09:19:40.750Z",
+              "review": {
+                "_id": "595a118bcd7ef867a3700a00",
+                "title": "【社长·实拍】在浩瀚星空中，找到属于你的那颗",
+                "mainCategory": {
+                  "name": "饰品配件",
+                  "_id": "5939fe96339f4628962645a1"
+                },
+                "minorCategory": {
+                  "name": "饰品",
+                  "_id": "5939feb889953a53610e6f32"
+                },
+                "merchant": {
+                  "_id": "5959f33169416054897b1166",
+                  "name": "Feel Fashion",
+                  "BD": {
+                    "_id": "5817f53ae3f48441183792bf",
+                    "nickname": "祝媛"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58eda23868fc6c4f83702c43",
+                "name": "嗜衣社长"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808173324394696",
+              "address": {
+                "name": "张丁丹",
+                "address": "郫筒镇东大街373号",
+                "phone": "18780290497",
+                "city": "四川省成都市郫县"
+              },
+              "from": "web",
+              "totalPrice": 19,
+              "originalTotalPrice": 0,
+              "coupon": {
+                "_id": "5926a72882577c69ab27e8fa",
+                "name": "详情页分享-新人优惠券"
+              },
+              "couponReduce": 10,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1502183561724
+              ],
+              "create": [
+                1502183980750
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989831504b99a0c166b3ba1",
+            "_score": 1.4391786,
+            "_source": {
+              "name": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+              "products": [
+                {
+                  "product": "58cb7532166d7a488de1a8f8",
+                  "amount": 1,
+                  "spec": "豆浆（一箱16袋）",
+                  "price": 42
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "5937a34ff2bb2c567612f74d",
+                "nickname": "csy_46e57",
+                "create": "2017-06-07T06:55:11.479Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "csy",
+                    "uid": "ovxrut2mJzIdD2I7sl-rwTlOe0rM",
+                    "unionId": "oJBt0v-b7u70T-ZykMDWL7nhM6QM"
+                  },
+                  "phone": {
+                    "number": "13408187160"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:23:33.535Z",
+              "review": {
+                "_id": "58cb45f964b56e1571c216e5",
+                "title": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "酒水饮料",
+                  "_id": "5939ff44cca2c95470ad86df"
+                },
+                "merchant": {
+                  "_id": "5975d722ec6ca72faaac4f62",
+                  "name": "科迪",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808141930415907",
+              "address": {
+                "name": "陈思雨",
+                "address": "西外御景上城",
+                "phone": "13408187160",
+                "city": "四川省达州市通川区"
+              },
+              "from": "app",
+              "fromChannel": "Oppo",
+              "totalPrice": 42,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1496818511479
+              ],
+              "create": [
+                1502184213535
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989819680bced0d3302e667",
+            "_score": 1.4391786,
+            "_source": {
+              "name": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+              "products": [
+                {
+                  "product": "58cb7532166d7a488de1a8f8",
+                  "amount": 1,
+                  "spec": "豆浆（一箱16袋）",
+                  "price": 42
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5979de75c207cf52c4dd3272",
+                "nickname": "刘佳宜",
+                "create": "2017-07-27T12:37:09.373Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "刘佳宜",
+                    "uid": "ovxrut3SYySFsFG2TzCGTZ0XkuX4",
+                    "unionId": "oJBt0vw-dS_J8gRqb_FrDbcGwSgs"
+                  },
+                  "phone": {
+                    "number": "15215139133"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:17:10.166Z",
+              "review": {
+                "_id": "58cb45f964b56e1571c216e5",
+                "title": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "酒水饮料",
+                  "_id": "5939ff44cca2c95470ad86df"
+                },
+                "merchant": {
+                  "_id": "5975d722ec6ca72faaac4f62",
+                  "name": "科迪",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808165542644149",
+              "address": {
+                "name": "刘佳宜",
+                "address": "观音桥华新街96号7栋",
+                "phone": "15215139133",
+                "city": "重庆市重庆市江北区"
+              },
+              "from": "app",
+              "totalPrice": 42,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501159029373
+              ],
+              "create": [
+                1502183830166
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898167e69845410c3773ec",
+            "_score": 1.4391786,
+            "_source": {
+              "name": "不用去香港我也能吃到最棒的曲奇饼干【顺丰包邮】",
+              "products": [
+                {
+                  "product": "596db31076ff9a53b6fda6ac",
+                  "amount": 1,
+                  "spec": "【推荐】咖啡原味抹茶三拼",
+                  "price": 165
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "5964eea783f35b6a18efb9c6",
+                "nickname": "monkey_36174",
+                "create": "2017-07-11T15:28:39.278Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "monkey",
+                    "uid": "ovxrut1272YHpxdWNDPtdYt7kKm0",
+                    "unionId": "oJBt0v5OisSzQRAalLTcVtUepG24"
+                  },
+                  "phone": {
+                    "number": "18560659662"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:16:23.856Z",
+              "review": {
+                "_id": "596db31076ff9a53b6fda68d",
+                "title": "不用去香港我也能吃到最棒的曲奇饼干【顺丰包邮】",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "饼干糕点",
+                  "_id": "5939ff4789953a53610e6f3b"
+                },
+                "merchant": {
+                  "_id": "596d9a3e3a613b54bf4b490b",
+                  "name": "akoko曲奇",
+                  "BD": {
+                    "_id": "595375cfa6a5c85f67152012",
+                    "nickname": "双吉1"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808138907894129",
+              "address": {
+                "name": "高萌酸钾",
+                "address": "长江中路517号长江中心五楼青岛电视台",
+                "phone": "18300227266",
+                "city": "山东省青岛市黄岛区"
+              },
+              "from": "app",
+              "totalPrice": 165,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1499786919278
+              ],
+              "create": [
+                1502183783856
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989821ef3cbfc0c06b93d66",
+            "_score": 1.4364308,
+            "_source": {
+              "name": "急需补水的时候怎么少了它—冰冰霜",
+              "products": [
+                {
+                  "product": "58cf91770331aa0e21b9e937",
+                  "amount": 1,
+                  "spec": "澳洲VE霜blackmores面霜",
+                  "price": 58
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58c2e1e04f6475323ca9f7fd",
+                "nickname": "大玲啊💭",
+                "create": "2017-03-10T17:26:56.425Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrutwnexP8yhLyh08yptNM2otw",
+                    "name": "大玲啊💭"
+                  },
+                  "phone": {
+                    "number": "15820759129"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:19:26.757Z",
+              "review": {
+                "_id": "58cf91770331aa0e21b9e925",
+                "title": "急需补水的时候怎么少了它—冰冰霜",
+                "merchant": {
+                  "_id": "586da2c2f51ba5233d2b0559",
+                  "name": "大象日化",
+                  "BD": {
+                    "_id": "58476edaf3adb95e7ecd6aa7",
+                    "nickname": "胡赞"
+                  }
+                },
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "面部护肤",
+                  "_id": "593a309889953a53610e7be6"
+                }
+              },
+              "channel": {
+                "_id": "56d92b0163f628d12b053be9",
+                "name": "草小姐"
+              },
+              "transferFee": 10,
+              "serialNo": "20170808194329179620",
+              "address": {
+                "name": "黄玲玲",
+                "address": "粤海街道文心六路保利时尚广场内铺B2-03（蜜蜡眉吧）",
+                "phone": "15820759129",
+                "city": "广东省深圳市南山区"
+              },
+              "from": "app",
+              "totalPrice": 68,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1489166816425
+              ],
+              "create": [
+                1502183966757
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598982be3797fb41c16f9fe8",
+            "_score": 1.4364308,
+            "_source": {
+              "name": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+              "products": [
+                {
+                  "product": "58cb45f964b56e1571c216ea",
+                  "amount": 1,
+                  "spec": "牛奶（一箱16袋）",
+                  "price": 38
+                }
+              ],
+              "type": "normal",
+              "state": "unpaid",
+              "buyer": {
+                "_id": "591e699602531155b451dfb1",
+                "nickname": "z_1371c",
+                "create": "2017-05-19T03:42:14.645Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "z",
+                    "uid": "ovxrutzyoIb9Rwd0pQvGHwI7uTYc",
+                    "unionId": "oJBt0v_shg_3FxWpSt2oS7GMjhks"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:22:06.792Z",
+              "review": {
+                "_id": "58cb45f964b56e1571c216e5",
+                "title": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "酒水饮料",
+                  "_id": "5939ff44cca2c95470ad86df"
+                },
+                "merchant": {
+                  "_id": "5975d722ec6ca72faaac4f62",
+                  "name": "科迪",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808164293041464",
+              "address": {
+                "name": "周娇",
+                "address": "甘桂路洪源小区14栋一单元",
+                "phone": "15273830407",
+                "city": "湖南省娄底市娄星区"
+              },
+              "from": "app",
+              "fromChannel": "Oppo",
+              "totalPrice": 38,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": false,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1495165334645
+              ],
+              "create": [
+                1502184126792
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598982abe69845410c37859e",
+            "_score": 1.4364308,
+            "_source": {
+              "name": "【去污合集】是时候表演一下我的洁癖了…",
+              "products": [
+                {
+                  "product": "59892b5cb72a8714ea093686",
+                  "amount": 1,
+                  "spec": "洗衣凝珠 红色一盒",
+                  "price": 39
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "597c2f0dfdd8124f02f83afa",
+                "nickname": "吃土少年戴小亮",
+                "create": "2017-07-29T06:45:33.466Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "吃土少年戴小亮",
+                    "uid": "ovxrut41X3QArN3gqbLRrVfcvuq8",
+                    "unionId": "oJBt0vxgSR2KuoAeQ3Ytp0fuWZSM"
+                  },
+                  "phone": {
+                    "number": "15850551551"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:21:47.995Z",
+              "review": {
+                "_id": "59892b5cb72a8714ea093665",
+                "title": "【去污合集】是时候表演一下我的洁癖了…",
+                "mainCategory": {
+                  "name": "清洁用品",
+                  "_id": "593a2e39ae7bcf29b2fe65fe"
+                },
+                "minorCategory": {
+                  "name": "家庭清洁",
+                  "_id": "593a2e5dae7bcf29b2fe65ff"
+                },
+                "merchant": {
+                  "_id": "586da2c2f51ba5233d2b0559",
+                  "name": "大象日化",
+                  "BD": {
+                    "_id": "58476edaf3adb95e7ecd6aa7",
+                    "nickname": "胡赞"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "59140b4df8cd902c3555534d",
+                "name": "大内密盒"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808125863425969",
+              "address": {
+                "name": "戴亮",
+                "address": "兴隆大街168号清竹园13栋1单元301室",
+                "phone": "15850551551",
+                "city": "江苏省南京市建邺区"
+              },
+              "from": "app",
+              "fromChannel": "Huawei",
+              "totalPrice": 39,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501310733466
+              ],
+              "create": [
+                1502184107995
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59897ffbe69845410c375e76",
+            "_score": 1.4337493,
+            "_source": {
+              "name": "换上貌美的运动服，瘦得都比较快！",
+              "products": [
+                {
+                  "product": "5982dd3a6c72f271dba56a72",
+                  "amount": 1,
+                  "spec": "灰色/L",
+                  "price": 129
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "57faebbc38deda725b3647ab",
+                "nickname": "clynev",
+                "create": "2016-10-10T01:15:40.000Z",
+                "bind": {
+                  "phone": {
+                    "number": "18618292711",
+                    "password": "e3b4ec69339c5ced5c8ebd3d21b55213"
+                  }
+                }
+              },
+              "payMethod": "wx",
+              "create": "2017-08-08T09:10:19.720Z",
+              "review": {
+                "_id": "5982dd3a6c72f271dba56a58",
+                "title": "换上貌美的运动服，瘦得都比较快！",
+                "mainCategory": {
+                  "name": "户外健身",
+                  "_id": "5939fe6087d7a6536dfe67a5"
+                },
+                "minorCategory": {
+                  "name": "健身器具",
+                  "_id": "5939fe70844cea5367cbb70b"
+                },
+                "merchant": {
+                  "_id": "5981a8e99613221b099299fc",
+                  "name": "深圳市龙华新区赛西尔服装厂",
+                  "BD": {
+                    "_id": "595375cfa6a5c85f67152012",
+                    "nickname": "双吉1"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "585282dfa780f83f565337a0",
+                "name": "Irena. T"
+              },
+              "transferFee": 8,
+              "serialNo": "20170808132037719343",
+              "address": {
+                "name": "杨雪",
+                "address": "手帕口南街一号院朗琴园12号楼704",
+                "phone": "18618292711",
+                "city": "北京北京市西城区"
+              },
+              "from": "app",
+              "totalPrice": 137,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1476062140000
+              ],
+              "create": [
+                1502183419720
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "59898014693dce410689097a",
+            "_score": 1.4337493,
+            "_source": {
+              "name": "告别激凸解放乳房，过一个没有束缚的夏天",
+              "products": [
+                {
+                  "product": "598806e5db4f543358a08f1b",
+                  "amount": 1,
+                  "spec": "乳贴/6对装",
+                  "price": 22.5
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5801138925d70c4cbe3d15dd",
+                "nickname": "黄宇1015",
+                "create": "2016-10-14T17:19:05.000Z",
+                "bind": {
+                  "Weibo": {
+                    "uid": "2208806602",
+                    "name": "黄宇1015"
+                  },
+                  "phone": {
+                    "number": "13635386815"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:10:44.554Z",
+              "review": {
+                "_id": "598806e4db4f543358a08f15",
+                "title": "告别激凸解放乳房，过一个没有束缚的夏天",
+                "mainCategory": {
+                  "name": "其它",
+                  "_id": "5943389851ed9664bcce1ef3"
+                },
+                "minorCategory": {
+                  "name": "其它",
+                  "_id": "59436c20254a8530fa83f4b7"
+                },
+                "merchant": {
+                  "_id": "598145fcdbdf6e406de65e61",
+                  "name": "张俊杰 临时商家 邮费不准",
+                  "BD": {
+                    "_id": "5965d353b2db565a3833969a",
+                    "nickname": "张俊杰1"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "58ca5cd53ac7b84853e739d9",
+                "name": "23:59"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808166074776690",
+              "address": {
+                "name": "黄宇",
+                "address": "人民医院骨二科11楼护士站",
+                "phone": "13635386815",
+                "city": "重庆重庆市云阳县"
+              },
+              "from": "app",
+              "totalPrice": 22.5,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1476465545000
+              ],
+              "create": [
+                1502183444554
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598980a464819741cf525a66",
+            "_score": 1.4337493,
+            "_source": {
+              "name": "是时候解放你的腋下露个前锯肌了",
+              "products": [
+                {
+                  "product": "59883016d7a8646f7fc44f96",
+                  "amount": 1,
+                  "spec": "黑色/XL",
+                  "price": 99
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "58d3a30a7396c6212c164c4e",
+                "nickname": "杨富逍",
+                "create": "2017-03-23T10:27:22.383Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "杨富逍",
+                    "uid": "ovxrut4kDrgYawnP_NnBUSD_zzKc",
+                    "unionId": "oJBt0vwgKqFiz2OojrZvtqv9rQr0",
+                    "openId": "oPN2mw_I_tE4NxQuNu82upByfQN8"
+                  },
+                  "phone": {
+                    "number": "13051877600"
+                  }
+                }
+              },
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:13:08.750Z",
+              "review": {
+                "_id": "59883015d7a8646f7fc44f80",
+                "title": "是时候解放你的腋下露个前锯肌了",
+                "mainCategory": {
+                  "name": "男装",
+                  "_id": "5939fcf9b079c329c2950e42"
+                },
+                "minorCategory": {
+                  "name": "上装",
+                  "_id": "5939fd3921ef14288ced5b43"
+                },
+                "merchant": {
+                  "_id": "594a18cc9064e65a382c752d",
+                  "name": "1807RTD 线上商店",
+                  "BD": {
+                    "_id": "57a9352d2c313bf960036231",
+                    "nickname": "一文"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "57917fca08cb41e136ef4c7a",
+                "name": "九镑十五便士"
+              },
+              "transferFee": 15,
+              "serialNo": "20170808172565875783",
+              "address": {
+                "name": "杨俊",
+                "address": "建设街道新城南路物探三处111信箱",
+                "phone": "13999605398",
+                "city": "新疆维吾尔自治区巴音郭楞蒙古自治州库尔勒市"
+              },
+              "from": "app",
+              "fromChannel": "Xiaomi",
+              "totalPrice": 114,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1490264842383
+              ],
+              "create": [
+                1502183588750
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598982f080bced0d3302f4c1",
+            "_score": 1.4337493,
+            "_source": {
+              "name": "匆忙盛开的枝头，染绿了夏天",
+              "products": [
+                {
+                  "product": "5938b616c8005a568e646db0",
+                  "amount": 2,
+                  "spec": "白色T恤（S M L尺码请备注！）",
+                  "price": 59
+                },
+                {
+                  "product": "5938b616c8005a568e646db2",
+                  "amount": 2,
+                  "spec": "绿色哈伦裤（S M L尺码请备注！）",
+                  "price": 69
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "5979ee68671321519951d70c",
+                "nickname": "馨_c626e",
+                "create": "2017-07-27T13:45:12.968Z",
+                "bind": {
+                  "Wechat": {
+                    "name": "馨",
+                    "uid": "ovxrut8jkWi9FIGU9MH-J3cbGocc",
+                    "unionId": "oJBt0v4Dgjn1KCVpdToFoUBAhFfE"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "wx",
+              "create": "2017-08-08T09:22:56.014Z",
+              "review": {
+                "_id": "5938b616c8005a568e646d8d",
+                "title": "匆忙盛开的枝头，染绿了夏天",
+                "merchant": {
+                  "_id": "5934c07beb40013ecde2e30d",
+                  "name": "嘟啦家",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                },
+                "mainCategory": {
+                  "name": "女装",
+                  "_id": "5939fcb998e67b29e094add2"
+                },
+                "minorCategory": {
+                  "name": "套装",
+                  "_id": "5939fcdf674ccc2880f3aa4a"
+                }
+              },
+              "channel": {
+                "_id": "58eda23868fc6c4f83702c43",
+                "name": "嗜衣社长"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808122359653729",
+              "address": {
+                "name": "黄珊",
+                "address": "南区景泰秀水小区6栋1-102",
+                "phone": "18960571097",
+                "city": "福建省三明市永安市"
+              },
+              "from": "app",
+              "fromChannel": "Huawei",
+              "totalPrice": 256,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1501163112968
+              ],
+              "create": [
+                1502184176014
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "598981f6f591d90d39f06d1f",
+            "_score": 1.4337493,
+            "_source": {
+              "name": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+              "products": [
+                {
+                  "product": "58cb45f964b56e1571c216ea",
+                  "amount": 1,
+                  "spec": "牛奶（一箱16袋）",
+                  "price": 38
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "581a98cf8f07767e605a51f5",
+                "nickname": "天线宝宝说你好🌻",
+                "create": "2016-11-03T01:54:23.000Z",
+                "bind": {
+                  "Wechat": {
+                    "uid": "ovxrut9WPdOO3-3r33VjBYFI2gVM",
+                    "name": "天线宝宝说你好🌻"
+                  },
+                  "phone": {
+                    "number": "15257172373"
+                  }
+                }
+              },
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:18:46.475Z",
+              "review": {
+                "_id": "58cb45f964b56e1571c216e5",
+                "title": "【豆浆补货】透明包装的网红牛奶在国内也能买到",
+                "mainCategory": {
+                  "name": "食品",
+                  "_id": "5939fec7b079c329c2950ed2"
+                },
+                "minorCategory": {
+                  "name": "酒水饮料",
+                  "_id": "5939ff44cca2c95470ad86df"
+                },
+                "merchant": {
+                  "_id": "5975d722ec6ca72faaac4f62",
+                  "name": "科迪",
+                  "BD": {
+                    "_id": "5817f61c055683422c84d54b",
+                    "nickname": "大丽"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "56f894ef6d7a47e67b42aeb2",
+                "name": "贪吃鬼小埋"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808127965839599",
+              "address": {
+                "name": "戴倩蓉",
+                "address": "凯旋路浙江大学华家池校区七舍楼下便利店",
+                "phone": "15257172373",
+                "city": "浙江省杭州市江干区"
+              },
+              "from": "app",
+              "totalPrice": 38,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1478138063000
+              ],
+              "create": [
+                1502183926475
+              ]
+            }
+          },
+          {
+            "_index": "orders",
+            "_type": "order",
+            "_id": "5989821304b99a0c166b304b",
+            "_score": 1.4337493,
+            "_source": {
+              "name": "为了不成黑鸡，我用了又防晒又美白的喷雾【有奖竞猜】",
+              "products": [
+                {
+                  "product": "597e93a994c5686ee32b7041",
+                  "amount": 1,
+                  "spec": "ATREUS美白防晒喷雾",
+                  "price": 58
+                }
+              ],
+              "type": "normal",
+              "state": "paid",
+              "buyer": {
+                "_id": "59254a395e7c1c6979e81699",
+                "nickname": "火球_MU_07557_6ab0c_5eaaa_8c845",
+                "create": "2017-05-24T08:54:17.728Z",
+                "bind": {
+                  "phone": {
+                    "number": "13528124378"
+                  }
+                }
+              },
+              "firstOrder": true,
+              "firstChannelOrder": true,
+              "payMethod": "alipay",
+              "create": "2017-08-08T09:19:15.197Z",
+              "review": {
+                "_id": "597e93a994c5686ee32b7027",
+                "title": "为了不成黑鸡，我用了又防晒又美白的喷雾【有奖竞猜】",
+                "mainCategory": {
+                  "name": "美妆护肤",
+                  "_id": "593a2de998e67b29e094b8bd"
+                },
+                "minorCategory": {
+                  "name": "缤纷彩妆",
+                  "_id": "593a3098ae7bcf29b2fe66f4"
+                },
+                "merchant": {
+                  "_id": "596dadc3fef840576c28fa05",
+                  "name": "小橘子代购",
+                  "BD": {
+                    "_id": "57a9352d2c313bf960036231",
+                    "nickname": "一文"
+                  }
+                }
+              },
+              "channel": {
+                "_id": "59548cc901fa8810f42faa82",
+                "name": "名媛姑姑"
+              },
+              "transferFee": 0,
+              "serialNo": "20170808138770479624",
+              "address": {
+                "name": "陈敏兒",
+                "address": "神冲村里堡正街59号",
+                "phone": "13528124378",
+                "city": "广东省中山市火炬开发区街道"
+              },
+              "from": "app",
+              "totalPrice": 58,
+              "originalTotalPrice": 0,
+              "couponReduce": 0,
+              "paid": true,
+              "refund": {
+                "logistics": {}
+              },
+              "delegate": {},
+              "replacement": {
+                "buyerLogistics": {},
+                "sellerLogistics": {}
+              },
+              "logistics": {},
+              "opLog": {
+                "delegate": {},
+                "delivery": {}
+              },
+              "cancelledByTimeout": false,
+              "problemInfo": {}
+            },
+            "fields": {
+              "buyer.create": [
+                1495616057728
+              ],
+              "create": [
+                1502183955197
+              ]
+            }
+          }
+        ]
+      },
+      "aggregations": {
+        "2": {
+          "buckets": [
+            {
+              "key_as_string": "2017-08-08T17:09:00.000+08:00",
+              "key": 1502183340000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:09:30.000+08:00",
+              "key": 1502183370000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:10:00.000+08:00",
+              "key": 1502183400000,
+              "doc_count": 3
+            },
+            {
+              "key_as_string": "2017-08-08T17:10:30.000+08:00",
+              "key": 1502183430000,
+              "doc_count": 3
+            },
+            {
+              "key_as_string": "2017-08-08T17:11:00.000+08:00",
+              "key": 1502183460000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:11:30.000+08:00",
+              "key": 1502183490000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:12:00.000+08:00",
+              "key": 1502183520000,
+              "doc_count": 4
+            },
+            {
+              "key_as_string": "2017-08-08T17:12:30.000+08:00",
+              "key": 1502183550000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:13:00.000+08:00",
+              "key": 1502183580000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:13:30.000+08:00",
+              "key": 1502183610000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:14:00.000+08:00",
+              "key": 1502183640000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:15:00.000+08:00",
+              "key": 1502183700000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:15:30.000+08:00",
+              "key": 1502183730000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:16:00.000+08:00",
+              "key": 1502183760000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:17:00.000+08:00",
+              "key": 1502183820000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:17:30.000+08:00",
+              "key": 1502183850000,
+              "doc_count": 5
+            },
+            {
+              "key_as_string": "2017-08-08T17:18:00.000+08:00",
+              "key": 1502183880000,
+              "doc_count": 3
+            },
+            {
+              "key_as_string": "2017-08-08T17:18:30.000+08:00",
+              "key": 1502183910000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2017-08-08T17:19:00.000+08:00",
+              "key": 1502183940000,
+              "doc_count": 5
+            },
+            {
+              "key_as_string": "2017-08-08T17:19:30.000+08:00",
+              "key": 1502183970000,
+              "doc_count": 3
+            },
+            {
+              "key_as_string": "2017-08-08T17:20:00.000+08:00",
+              "key": 1502184000000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:21:30.000+08:00",
+              "key": 1502184090000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:22:00.000+08:00",
+              "key": 1502184120000,
+              "doc_count": 3
+            },
+            {
+              "key_as_string": "2017-08-08T17:22:30.000+08:00",
+              "key": 1502184150000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:23:00.000+08:00",
+              "key": 1502184180000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2017-08-08T17:23:30.000+08:00",
+              "key": 1502184210000,
+              "doc_count": 4
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  ]
+}
