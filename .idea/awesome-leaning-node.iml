@@ -22,5 +22,6 @@
     <orderEntry type="library" name="node-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="lodash-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="fs-extra-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="fs-extra-promise-es6-DefinitelyTyped" level="application" />
   </component>
 </module>
