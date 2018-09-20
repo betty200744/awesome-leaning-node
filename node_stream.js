@@ -7,8 +7,8 @@ var fs = require("fs");
 
 var data;
 
-var readStream = fs.createReadStream('./public/input.txt');
-var writeStream = fs.createWriteStream('./public/output.txt');
+var readStream = fs.createReadStream('../public/input.txt');
+var writeStream = fs.createWriteStream('../public/output.txt');
 
 readStream.on('data', (block)=>{
   data += block;
@@ -22,11 +22,22 @@ readStream.on('end', () => {
 readStream.pipe(writeStream);
 
 
-function world() {
-  console.log('hello world')
+function outworld() {
+  console.log('hello  outworld')
 }
 
-module.exports = {world}
+const conworld = () => {
+  console.log('const  world')
+};
+
+module.exports = {
+  outworld,
+  conworld,
+  inworld(){
+    console.log('hello inworld')
+  },
+
+};
 
 
 

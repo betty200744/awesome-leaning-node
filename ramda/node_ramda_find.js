@@ -13,5 +13,4 @@ var reasonMap = [
   {reasonCode: 5, reason: "其他"},
 ];
 
-
 console.log(R.find(R.propEq('reason', '其他'))(reasonMap));

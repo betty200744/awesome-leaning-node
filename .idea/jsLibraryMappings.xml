@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{bluebird-DefinitelyTyped, chai-DefinitelyTyped, chrome-DefinitelyTyped, fs-extra-DefinitelyTyped, fs-extra-promise-es6-DefinitelyTyped, graphql-DefinitelyTyped, grunt-DefinitelyTyped, lodash-DefinitelyTyped, material-design-lite-DefinitelyTyped, mocha-DefinitelyTyped, moment-business-DefinitelyTyped, mongoose-DefinitelyTyped, node-DefinitelyTyped, ramda-DefinitelyTyped, redis-DefinitelyTyped}" />
+    <file url="PROJECT" libraries="{bluebird-DefinitelyTyped, chai-DefinitelyTyped, chrome-DefinitelyTyped, express-DefinitelyTyped, fs-extra-DefinitelyTyped, fs-extra-promise-es6-DefinitelyTyped, graphql-DefinitelyTyped, grunt-DefinitelyTyped, lodash-DefinitelyTyped, material-design-lite-DefinitelyTyped, mocha-DefinitelyTyped, moment-business-DefinitelyTyped, mongoose-DefinitelyTyped, node-DefinitelyTyped, ramda-DefinitelyTyped, redis-DefinitelyTyped}" />
     <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

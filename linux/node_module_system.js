@@ -5,4 +5,9 @@
 
 var node_stream = require("../node_stream");
 
-node_stream.world()
+
+
+node_stream.inworld();
+node_stream.conworld()
+
+console.log(typeout);

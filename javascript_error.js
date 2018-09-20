@@ -24,7 +24,7 @@ var calla = {
 };
 
 function test(x) {
-  console.log(x)
+  console.log(x);
   console.log(arguments)
 }
 test.print = function () {

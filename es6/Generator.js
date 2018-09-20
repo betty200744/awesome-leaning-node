@@ -3,6 +3,8 @@
  */
 "use strict";
 
+
+
 function* say() {
   console.log('please called next() ');
   yield 'hello';
