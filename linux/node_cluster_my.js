@@ -5,12 +5,10 @@
 
 const cluster = require('cluster');
 const os = require('os');
-const net = require('net');
 const http = require('http');
 
 if (cluster.isMaster) {
-  let len = os.cpus().length;
-  for (let i = 0; i < len; i += 1) {
+  for (let i = 0; i < 4; i += 1) {
     let work = cluster.fork();
     console.log(work.id);
   }

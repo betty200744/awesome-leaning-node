@@ -3,7 +3,7 @@
  */
 "use strict";
 
-var node_stream = require("../node_stream");
+var node_stream = require("../node_fs_stream");
 
 
 

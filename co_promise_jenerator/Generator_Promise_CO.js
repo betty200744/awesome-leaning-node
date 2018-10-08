@@ -4,7 +4,7 @@
 "use strict";
 const fs = require("fs");
 var Promise = require('bluebird');
-var fsp = Promise.promisifyAll(require("fs"));
+Promise.promisifyAll(require("fs"));
 const co = require('co');
 
 
@@ -32,6 +32,23 @@ fs.readFileAsync('/etc/1')
   .then(function (data) {
     console.log('异步代码, Promise， 没有callback, 但有then, ' + data)
   });
+
+/**
+ * 异步代码， 自己封装Promise
+ */
+const readFilePromise = (path) => {
+  return new Promise((resolve, reject) => {
+    fs.readFile(path, function(err, data){
+      if (err) {
+        reject(err)
+      } else {
+        resolve(data)
+      }
+    })
+  })
+};
+
+readFilePromise('/etc/1').then((data)=> console.log(data.toString()));
 
 /**
  * 异步代码，Generator方法, 无Promise
